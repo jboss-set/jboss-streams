@@ -126,14 +126,14 @@
           "codebase": "2.x"
         },
         {
-          "component_name": "Hibernate",
-          "repository_url": "https://github.com/hibernate/hibernate-orm",
-          "codebase": "5.0"
-        },
-        {
           "component_name": "HAL",
           "repository_url": "https://github.com/hal/core",
           "codebase": "2.8.x"
+        },
+        {
+          "component_name": "Hibernate",
+          "repository_url": "https://github.com/hibernate/hibernate-orm",
+          "codebase": "5.0"
         },
         {
           "component_name": "Infinispan",
