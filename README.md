@@ -8,3 +8,8 @@ SET tooling projects.
 # Contributing
 The streams.json file is very much a work in progress, so if you would like to
 add additional data please issue a PR.
+
+When adding additional components to a stream, please ensure that you add the 
+component to all of the streams that it belongs, along with the relevant repository
+branch. For example, Hal belongs to wildfly and jboss-eap-6.4.z so it must be added
+to both streams for completeness.  
