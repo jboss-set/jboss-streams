@@ -12,7 +12,18 @@
         {
           "component_name": "Application Server",
           "repository_url": "https://github.com/wildfly/wildfly",
-          "codebase": "master"
+          "codebase": "master",
+          "lead": "Jason Greene",
+          "internal_components": [
+              {
+                  "name": "Clustering",
+                  "lead": "Paul Ferraro"
+              },
+              {
+                  "name": "JPA",
+                  "lead": "Scott Marlow"
+              }
+          ]
         },
         {
           "component_name": "Application Server Core",
