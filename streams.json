@@ -47,7 +47,7 @@
         {
           "component_name": "Infinispan",
           "repository_url": "https://github.com/infinispan/infinispan",
-          "codebase": "8.0.x"
+          "codebase": "8.1.x"
         },
         {
           "component_name": "IronJacamar",
@@ -88,6 +88,11 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "2.3"
+        },
+	{
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "4.0"
         }
       ]
     },
@@ -179,6 +184,11 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "2.3"
+        },
+	{
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "4.0"
         }
       ]
     },
@@ -270,6 +280,11 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "1.1"
+        },
+	{
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "3.6"
         }
       ]
     },
@@ -361,6 +376,11 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "1.1"
+        },
+	{
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "3.6"
         }
       ]
     }
