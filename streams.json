@@ -257,6 +257,55 @@
           "codebase": "Branch_JGroups_3_2"
         },
         {
+          "component_name": "JBoss JSF API",
+          "repository_url": "https://github.com/jboss/jboss-jsf-api_spec/",
+          "codebase": "2.1.28"
+        },
+        {
+          "component_name": "Marshalling",
+          "repository_url": "https://github.com/jboss-remoting/jboss-marshalling",
+          "codebase": "1.4"
+        },
+        {
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "3.6"
+        },
+        {
+          "component_name": "Metadata",
+          "repository_url": "https://github.com/jboss/metadata",
+          "codebase": "7.x"
+        },
+        {
+          "component_name": "Mod_cluster",
+          "repository_url": "https://github.com/modcluster/mod_cluster/",
+          "codebase": "1.2.x"
+        },
+        {
+          "component_name": "Modules",
+          "repository_url": "https://github.com/jboss-modules/jboss-modules",
+          "codebase": "1.3"
+        },
+        {
+          "component_name": "MSC",
+          "repository_url": "https://github.com/jboss-msc/jboss-msc/",
+          "codebase": "1.1"
+        },
+        {
+          "component_name": "Mojarra",
+          "repository_url": "https://github.com/jboss/mojarra/",
+          "codebase": "svn/tags/2.1.25"
+        },
+        {
+          "component_name": "Narayana",
+          "repository_url": "https://github.com/jbosstm",
+        },
+        {
+          "component_name": "OSGi",
+          "repository_url": "https://github.com/jbosgi/jbosgi/",
+          "codebase": "r4v42"
+        },
+        {
           "component_name": "Picketbox",
           "repository_url": "https://github.com/jbossas/redhat-picketbox",
           "codebase": "eap-6.4.x"
@@ -265,6 +314,11 @@
           "component_name": "Picketlink",
           "repository_url": "https://github.com/jbossas/redhat-picketlink",
           "codebase": "eap-6.4.x"
+        },
+        {
+          "component_name": "Quickstarts",
+          "repository_url": "https://github.com/jboss-developer/jboss-eap-quickstarts",
+          "codebase": "master"
         },
         {
           "component_name": "Remoting",
@@ -277,15 +331,15 @@
           "codebase": "Branch_2_3"
         },
         {
+          "component_name": "Web",
+          "repository_url": "https://svn.jboss.org/repos/jbossweb/branches/7.5.x/",
+          "codebase": "7.5.x"
+        },
+        {
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "1.1"
         },
-	{
-          "component_name": "Netty",
-          "repository_url": "https://github.com/netty/netty",
-          "codebase": "3.6"
-        }
       ]
     },
     {
