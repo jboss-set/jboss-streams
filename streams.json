@@ -8,7 +8,7 @@
           "component_name": "AESH",
           "repository_url": "https://github.com/aeshell/aesh",
           "codebase": "master"
-        },
+        }
         {
           "component_name": "Application Server",
           "repository_url": "https://github.com/wildfly/wildfly",
