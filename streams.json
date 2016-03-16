@@ -65,6 +65,11 @@
           "codebase": "master"
         },
         {
+          "component_name": "Narayana",
+          "repository_url": "https://github.com/jbosstm/narayana",
+          "codebase": "5.2"
+        },
+        {
           "component_name": "Picketbox",
           "repository_url": "https://github.com/picketbox/picketbox",
           "codebase": "WF-10.x"
@@ -159,6 +164,11 @@
           "component_name": "JGroups",
           "repository_url": "https://github.com/belaban/JGroups",
           "codebase": "master"
+        },
+        {
+          "component_name": "Narayana",
+          "repository_url": "https://github.com/jbosstm/narayana",
+          "codebase": "5.2"
         },
         {
           "component_name": "Picketbox",
@@ -298,7 +308,8 @@
         },
         {
           "component_name": "Narayana",
-          "repository_url": "https://github.com/jbosstm",
+          "repository_url": "https://github.com/jbosstm/narayana",
+          "codebase": "4.17"
         },
         {
           "component_name": "OSGi",
@@ -339,7 +350,7 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "1.1"
-        },
+        }
       ]
     },
     {
@@ -448,7 +459,8 @@
         },
         {
           "component_name": "Narayana",
-          "repository_url": "https://github.com/jbosstm",
+          "repository_url": "https://github.com/jbosstm/narayana",
+          "codebase": "4.17"
         },
         {
           "component_name": "OSGi",
