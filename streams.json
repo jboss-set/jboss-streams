@@ -21,7 +21,7 @@
         },
         {
           "component_name": "Artemis",
-          "repository_url": "https://github.com/apache/activemq-artemis",
+          "repository_url": "https://github.com/rh-messaging/jboss-activemq-artemis",
           "codebase": "master"
         },
         {
@@ -122,7 +122,7 @@
         },
         {
           "component_name": "Artemis",
-          "repository_url": "https://github.com/apache/activemq-artemis",
+          "repository_url": "https://github.com/rh-messaging/jboss-activemq-artemis",
           "codebase": "master"
         },
         {
