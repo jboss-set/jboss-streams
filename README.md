@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jboss-set/aphrodite.svg?branch=master)](https://travis-ci.org/jboss-set/aphrodite)
+
 JBoss-Streams
 ===========
 A repository which contains a json file detailing the relationships between
