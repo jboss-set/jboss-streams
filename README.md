@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jboss-set/aphrodite.svg?branch=master)](https://travis-ci.org/jboss-set/aphrodite)
+[![Build Status](https://travis-ci.org/jboss-set/aphrodite.svg?branch=master)](https://travis-ci.org/jboss-set/jboss-streams)
 
 JBoss-Streams
 ===========
