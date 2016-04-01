@@ -329,7 +329,7 @@
         {
           "component_name": "Quickstarts",
           "repository_url": "https://github.com/jboss-developer/jboss-eap-quickstarts",
-          "codebase": "master"
+          "codebase": "6.4.x"
         },
         {
           "component_name": "Remoting",
@@ -480,7 +480,7 @@
         {
           "component_name": "Quickstarts",
           "repository_url": "https://github.com/jboss-developer/jboss-eap-quickstarts",
-          "codebase": "master"
+          "codebase": "6.3.x"
         },
         {
           "component_name": "Remoting",
