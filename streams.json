@@ -92,7 +92,7 @@
         {
           "component_name": "Undertow",
           "repository_url": "https://github.com/undertow-io/undertow",
-          "codebase": "master"
+          "codebase": "1.3.x"
         },
         {
           "component_name": "Weld",
@@ -198,7 +198,7 @@
         {
           "component_name": "Undertow",
           "repository_url": "https://github.com/undertow-io/undertow",
-          "codebase": "master"
+          "codebase": "1.3.x"
         },
         {
           "component_name": "Weld",
