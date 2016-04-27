@@ -90,6 +90,11 @@
           "codebase": "master"
         },
         {
+          "component_name": "Undertow",
+          "repository_url": "https://github.com/undertow-io/undertow",
+          "codebase": "1.3.x"
+        },
+        {
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "2.3"
@@ -189,6 +194,11 @@
           "component_name": "RESTEasy",
           "repository_url": "https://github.com/resteasy/Resteasy",
           "codebase": "master"
+        },
+        {
+          "component_name": "Undertow",
+          "repository_url": "https://github.com/undertow-io/undertow",
+          "codebase": "1.3.x"
         },
         {
           "component_name": "Weld",
