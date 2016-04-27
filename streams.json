@@ -338,8 +338,8 @@
         },
         {
           "component_name": "RESTEasy",
-          "repository_url": "https://github.com/resteasy/Resteasy",
-          "codebase": "Branch_2_3"
+          "repository_url": "https://github.com/jbossas/redhat-resteasy/",
+          "codebase": "2.3.x"
         },
         {
           "component_name": "Web",
@@ -489,8 +489,8 @@
         },
         {
           "component_name": "RESTEasy",
-          "repository_url": "https://github.com/resteasy/Resteasy",
-          "codebase": "Branch_2_3"
+          "repository_url": "https://github.com/jbossas/redhat-resteasy/",
+          "codebase": "2.3.x"
         },
         {
           "component_name": "Web",
