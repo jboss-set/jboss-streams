@@ -92,7 +92,7 @@
         {
           "component_name": "RESTEasy",
           "repository_url": "https://github.com/resteasy/Resteasy",
-          "codebase": "master"
+          "codebase": "3.0.x"
         },
         {
           "component_name": "Undertow",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "name": "jboss-eap-7.0.z",
+      "name": "jboss-eap-7.z.0",
       "upstream": "wildfly",
       "codebases": [
         {
@@ -128,7 +128,7 @@
         {
           "component_name": "Application Server Core",
           "repository_url": "https://github.com/jbossas/wildfly-core-eap",
-          "codebase": "2.x"
+          "codebase": "2.1.x"
         },
         {
           "component_name": "Artemis",
@@ -203,7 +203,118 @@
         {
           "component_name": "RESTEasy",
           "repository_url": "https://github.com/resteasy/Resteasy",
+          "codebase": "3.0.x"
+        },
+        {
+          "component_name": "Undertow",
+          "repository_url": "https://github.com/undertow-io/undertow",
+          "codebase": "1.3.x"
+        },
+        {
+          "component_name": "Weld",
+          "repository_url": "https://github.com/weld/core",
+          "codebase": "2.3"
+        },
+	{
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "4.0"
+        }
+      ]
+    },
+    {
+      "name": "jboss-eap-7.0.z",
+      "upstream": "jboss-eap-7.z.0",
+      "codebases": [
+        {
+          "component_name": "AESH",
+          "repository_url": "https://github.com/aeshell/aesh",
           "codebase": "master"
+        },
+        {
+          "component_name": "Application Server",
+          "repository_url": "https://github.com/jbossas/jboss-eap7",
+          "codebase": "7.0.x"
+        },
+        {
+          "component_name": "Application Server Core",
+          "repository_url": "https://github.com/jbossas/wildfly-core-eap",
+          "codebase": "2.1.x"
+        },
+        {
+          "component_name": "Artemis",
+          "repository_url": "https://github.com/rh-messaging/jboss-activemq-artemis",
+          "codebase": "jboss-1.1.0-x"
+        },
+        {
+          "component_name": "DMR",
+          "repository_url": "https://github.com/jbossas/jboss-dmr",
+          "codebase": "1.3"
+        },
+        {
+          "component_name": "EJB-Client",
+          "repository_url": "https://github.com/jbossas/jboss-ejb-client",
+          "codebase": "2.x"
+        },
+        {
+          "component_name": "HAL",
+          "repository_url": "https://github.com/hal/core",
+          "codebase": "2.8.x"
+        },
+        {
+          "component_name": "Hibernate",
+          "repository_url": "https://github.com/hibernate/hibernate-orm",
+          "codebase": "5.0"
+        },
+        {
+          "component_name": "Infinispan",
+          "repository_url": "https://github.com/infinispan/infinispan",
+          "codebase": "8.1.x"
+        },
+        {
+          "component_name": "IronJacamar",
+          "repository_url": "https://github.com/ironjacamar/ironjacamar",
+          "codebase": "1.3"
+        },
+        {
+          "component_name": "JBeret",
+          "repository_url": "https://github.com/jberet/jsr352",
+          "codebase": "1.2.x"
+        },
+        {
+          "component_name": "JBoss Logging",
+          "repository_url": "https://github.com/jboss-logging/jboss-logging",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JGroups",
+          "repository_url": "https://github.com/belaban/JGroups",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Narayana",
+          "repository_url": "https://github.com/jbosstm/narayana",
+          "codebase": "5.2"
+        },
+        {
+          "component_name": "Picketbox",
+          "repository_url": "https://github.com/jbossas/redhat-picketbox",
+          "codebase": "eap-7.x"
+        },
+        {
+          "component_name": "Picketlink",
+          "repository_url": "https://github.com/jbossas/redhat-picketlink",
+          "codebase": "eap-7.x"
+        },
+        {
+          "component_name": "Remoting",
+          "repository_url": "https://github.com/jboss-remoting/jboss-remoting",
+          "codebase": "4.0"
+        },
+        {
+          "component_name": "RESTEasy",
+          "repository_url": "https://github.com/resteasy/Resteasy",
+          "codebase": "3.0.x"
         },
         {
           "component_name": "Undertow",
