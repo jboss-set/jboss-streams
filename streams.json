@@ -55,6 +55,11 @@
           "codebase": "1.3"
         },
         {
+          "component_name": "JBeret",
+          "repository_url": "https://github.com/jberet/jsr352",
+          "codebase": "master"
+        },
+        {
           "component_name": "JBoss Logging",
           "repository_url": "https://github.com/jboss-logging/jboss-logging",
           "codebase": "master"
@@ -159,6 +164,11 @@
           "component_name": "IronJacamar",
           "repository_url": "https://github.com/ironjacamar/ironjacamar",
           "codebase": "1.3"
+        },
+        {
+          "component_name": "JBeret",
+          "repository_url": "https://github.com/jberet/jsr352",
+          "codebase": "1.2.x"
         },
         {
           "component_name": "JBoss Logging",
