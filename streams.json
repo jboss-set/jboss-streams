@@ -118,7 +118,7 @@
         {
           "component_name": "AESH",
           "repository_url": "https://github.com/aeshell/aesh",
-          "codebase": "master"
+          "codebase": "0.66.+"
         },
         {
           "component_name": "Application Server",
@@ -127,8 +127,8 @@
         },
         {
           "component_name": "Application Server Core",
-          "repository_url": "https://github.com/jbossas/wildfly-core-eap",
-          "codebase": "2.1.x"
+          "repository_url": "https://github.com/wildfly/wildfly-core",
+          "codebase": "master"
         },
         {
           "component_name": "Artemis",
@@ -138,12 +138,12 @@
         {
           "component_name": "DMR",
           "repository_url": "https://github.com/jbossas/jboss-dmr",
-          "codebase": "1.3"
+          "codebase": "master"
         },
         {
           "component_name": "EJB-Client",
           "repository_url": "https://github.com/jbossas/jboss-ejb-client",
-          "codebase": "2.x"
+          "codebase": "2.1"
         },
         {
           "component_name": "HAL",
@@ -158,7 +158,7 @@
         {
           "component_name": "Infinispan",
           "repository_url": "https://github.com/infinispan/infinispan",
-          "codebase": "8.1.x"
+          "codebase": "8.2.x"
         },
         {
           "component_name": "IronJacamar",
@@ -183,7 +183,7 @@
         {
           "component_name": "Narayana",
           "repository_url": "https://github.com/jbosstm/narayana",
-          "codebase": "5.2"
+          "codebase": "master"
         },
         {
           "component_name": "Picketbox",
@@ -208,7 +208,7 @@
         {
           "component_name": "Undertow",
           "repository_url": "https://github.com/undertow-io/undertow",
-          "codebase": "1.3.x"
+          "codebase": "1.4.x"
         },
         {
           "component_name": "Weld",
