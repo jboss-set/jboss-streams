@@ -187,8 +187,8 @@
         },
         {
           "component_name": "Picketbox",
-          "repository_url": "https://github.com/jbossas/redhat-picketbox",
-          "codebase": "eap-7.x"
+          "repository_url": "https://github.com/picketbox/picketbox",
+          "codebase": "master"
         },
         {
           "component_name": "Picketlink",
