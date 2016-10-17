@@ -74,6 +74,11 @@
           "repository_url": "https://github.com/jbosstm/narayana",
           "codebase": "5.2"
         },
+	    {
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "4.0"
+        },
         {
           "component_name": "Picketbox",
           "repository_url": "https://github.com/picketbox/picketbox",
@@ -103,11 +108,6 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "2.3"
-        },
-	{
-          "component_name": "Netty",
-          "repository_url": "https://github.com/netty/netty",
-          "codebase": "4.0"
         }
       ]
     },
@@ -185,6 +185,11 @@
           "repository_url": "https://github.com/jbosstm/narayana",
           "codebase": "master"
         },
+	    {
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "4.0"
+        },
         {
           "component_name": "Picketbox",
           "repository_url": "https://github.com/picketbox/picketbox",
@@ -214,11 +219,6 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "2.3"
-        },
-	{
-          "component_name": "Netty",
-          "repository_url": "https://github.com/netty/netty",
-          "codebase": "4.0"
         }
       ]
     },
@@ -296,6 +296,11 @@
           "repository_url": "https://github.com/jbosstm/narayana",
           "codebase": "5.2"
         },
+	    {
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "4.0"
+        },
         {
           "component_name": "Picketbox",
           "repository_url": "https://github.com/jbossas/redhat-picketbox",
@@ -325,11 +330,6 @@
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
           "codebase": "2.3"
-        },
-	{
-          "component_name": "Netty",
-          "repository_url": "https://github.com/netty/netty",
-          "codebase": "4.0"
         }
       ]
     },
@@ -388,6 +388,11 @@
           "codebase": "R_2_3_2_jboss-branch"
         },
         {
+          "component_name": "JBoss JSF API",
+          "repository_url": "https://github.com/jboss/jboss-jsf-api_spec/",
+          "codebase": "2.1.28"
+        },
+        {
           "component_name": "JBoss Logging",
           "repository_url": "https://github.com/jboss-logging/jboss-logging",
           "codebase": "3.1"
@@ -398,19 +403,9 @@
           "codebase": "Branch_JGroups_3_2"
         },
         {
-          "component_name": "JBoss JSF API",
-          "repository_url": "https://github.com/jboss/jboss-jsf-api_spec/",
-          "codebase": "2.1.28"
-        },
-        {
           "component_name": "Marshalling",
           "repository_url": "https://github.com/jboss-remoting/jboss-marshalling",
           "codebase": "1.4"
-        },
-        {
-          "component_name": "Netty",
-          "repository_url": "https://github.com/netty/netty",
-          "codebase": "3.6"
         },
         {
           "component_name": "Metadata",
@@ -428,19 +423,24 @@
           "codebase": "1.3"
         },
         {
-          "component_name": "MSC",
-          "repository_url": "https://github.com/jboss-msc/jboss-msc/",
-          "codebase": "1.1"
-        },
-        {
           "component_name": "Mojarra",
           "repository_url": "https://github.com/jboss/mojarra/",
           "codebase": "svn/tags/2.1.25"
         },
         {
+          "component_name": "MSC",
+          "repository_url": "https://github.com/jboss-msc/jboss-msc/",
+          "codebase": "1.1"
+        },
+        {
           "component_name": "Narayana",
           "repository_url": "https://github.com/jbosstm/narayana",
           "codebase": "4.17"
+        },
+        {
+          "component_name": "Netty",
+          "repository_url": "https://github.com/netty/netty",
+          "codebase": "3.6"
         },
         {
           "component_name": "OSGi",
