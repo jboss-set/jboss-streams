@@ -148,7 +148,7 @@
         {
           "component_name": "HAL",
           "repository_url": "https://github.com/hal/core",
-          "codebase": "2.8.x"
+          "codebase": "master"
         },
         {
           "component_name": "Hibernate",
