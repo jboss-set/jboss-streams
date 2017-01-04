@@ -10,6 +10,116 @@
           "codebase": "master"
         },
         {
+          "component_name": "ANTLR",
+          "repository_url": "http://www.antlr2.org/download/antlr-2.7.7.tar.gz",
+          "codebase": ""
+        },
+        {
+          "component_name": "Apache Avro",
+          "repository_url": "http://svn.apache.org/repos/asf/avro",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Apache Commons Beanutils",
+          "repository_url": "https://github.com/apache/commons-beanutils",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Apache Commons CLI",
+          "repository_url": "https://github.com/apache/commons-cli",
+          "codebase": "cli-1.x"
+        },
+        {
+          "component_name": "Apache Commons Codec",
+          "repository_url": "https://github.com/apache/commons-codec",
+          "codebase": "CODEC_1_X"
+        },
+        {
+          "component_name": "Apache Commons Collections",
+          "repository_url": "https://github.com/apache/commons-collections",
+          "codebase": "COLLECTIONS_3_2_X"
+        },
+        {
+          "component_name": "Apache Commons Digester",
+          "repository_url": "https://github.com/apache/commons-digester",
+          "codebase": "1_X_LINE"
+        },
+        {
+          "component_name": "Apache Commons Pool",
+          "repository_url": "https://github.com/apache/commons-pool",
+          "codebase": "POOL_1_X"
+        },
+        {
+          "component_name": "Apache CXF",
+          "repository_url": "https://github.com/apache/cxf",
+          "codebase": "3.1.x-fixes"
+        },
+        {
+          "component_name": "Apache DS",
+          "repository_url": "https://github.com/apache/directory-server",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Apache HTTP Async Client",
+          "repository_url": "https://github.com/apache/httpasyncclient",
+          "codebase": "4.1.x"
+        },
+        {
+          "component_name": "Apache Lucene",
+          "repository_url": "https://github.com/apache/lucene-solr",
+          "codebase": "branch_5x"
+        },
+        {
+          "component_name": "Apache MIME4J",
+          "repository_url": "https://github.com/apache/james-mime4j",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Apache MyFaces Core",
+          "repository_url": "http://svn.apache.org/repos/asf/myfaces/core",
+          "codebase": "branches/2.1.x"
+        },
+        {
+          "component_name": "Apache NEETHI",
+          "repository_url": "https://github.com/apache/webservices-neethi",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Apache OpenJPA",
+          "repository_url": "https://github.com/apache/openjpa",
+          "codebase": "2.4.x"
+        },
+        {
+          "component_name": "Apache Proton",
+          "repository_url": "https://github.com/apache/qpid-proton",
+          "codebase": "0.8"
+        },
+        {
+          "component_name": "Apache Santuario",
+          "repository_url": "https://github.com/apache/santuario-java",
+          "codebase": "2.0.x-fixes"
+        },
+        {
+          "component_name": "Apache WSS4J",
+          "repository_url": "https://github.com/apache/wss4j",
+          "codebase": "2_1_x-fixes"
+        },
+        {
+          "component_name": "Apache Velocity",
+          "repository_url": "http://svn.apache.org/repos/asf/velocity/engine",
+          "codebase": "branches/1.7.x"
+        },
+        {
+          "component_name": "Apache Xalan-j",
+          "repository_url": "https://github.com/jboss/xalan-j",
+          "codebase": "jboss_2_7_1"
+        },
+        {
+          "component_name": "Apache XML Schema",
+          "repository_url": "https://github.com/apache/webservices-xmlschema",
+          "codebase": "trunk"
+        },
+        {
           "component_name": "Application Server",
           "repository_url": "https://github.com/wildfly/wildfly",
           "codebase": "master"
@@ -25,14 +135,134 @@
           "codebase": "jboss-1.1.0-x"
         },
         {
+          "component_name": "ASM",
+          "repository_url": "svn://svn.forge.objectweb.org/svnroot/asm",
+          "codebase": ""
+        },
+        {
+          "component_name": "AZURE",
+          "repository_url": "https://github.com/Azure/azure-storage-java",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Bouncycastle",
+          "repository_url": "https://github.com/bcgit/bc-java",
+          "codebase": "master"
+        },
+        {
+          "component_name": "cal10n",
+          "repository_url": "https://github.com/qos-ch/cal10n",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Codehaus Jackson",
+          "repository_url": "https://github.com/codehaus/jackson",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Codehaus Jettison",
+          "repository_url": "https://github.com/codehaus/jettison",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Cryptacular",
+          "repository_url": "https://github.com/vt-middleware/cryptacular",
+          "codebase": "master"
+        },
+        {
           "component_name": "DMR",
           "repository_url": "https://github.com/jbossas/jboss-dmr",
           "codebase": "1.3"
         },
         {
+          "component_name": "DOM4J",
+          "repository_url": "https://github.com/eclipse/eclipselink.runtime",
+          "codebase": ""
+        },
+        {
+          "component_name": "Eclipse Link",
+          "repository_url": "https://github.com/jbossas/jboss-ejb-client",
+          "codebase": "2.6"
+        },
+        {
           "component_name": "EJB-Client",
           "repository_url": "https://github.com/jbossas/jboss-ejb-client",
           "codebase": "2.x"
+        },
+        {
+          "component_name": "EJB3 Ext API",
+          "repository_url": "https://github.com/jbossejb3/jboss-ejb3-ext-api",
+          "codebase": ""
+        },
+        {
+          "component_name": "Fast Infoset",
+          "repository_url": "https://svn.java.net/svn/fi~svn",
+          "codebase": "branches/FastInfoset-1_2-branch"
+        },
+        {
+          "component_name": "Fasterxml Classmate",
+          "repository_url": "https://github.com/FasterXML/java-classmate",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Fasterxml Jackosn Annotations",
+          "repository_url": "https://github.com/FasterXML/jackson-annotations",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Fasterxml Jackosn Core",
+          "repository_url": "https://github.com/FasterXML/jackson-core",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Fasterxml Jackosn Databind",
+          "repository_url": "https://github.com/FasterXML/jackson-databind",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Fasterxml Jackosn Datatype JDK8",
+          "repository_url": "https://github.com/FasterXML/jackson-datatype-jdk8",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Fasterxml Jackosn Datatype JSR310",
+          "repository_url": "https://github.com/FasterXML/jackson-datatype-jsr310",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Fasterxml Jackosn JAXRS Providers",
+          "repository_url": "https://github.com/FasterXML/jackson-jaxrs-providers",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Fasterxml Jackosn Module JAXB Annotations",
+          "repository_url": "https://github.com/FasterXML/jackson-module-jaxb-annotations",
+          "codebase": "2.8"
+        },
+        {
+          "component_name": "Generic JMS",
+          "repository_url": "https://github.com/jms-ra/generic-jms-ra",
+          "codebase": "master"
+        },
+        {
+          "component_name": "GETOPT",
+          "repository_url": "https://github.com/arenn/java-getopt",
+          "codebase": "master"
+        },
+        {
+          "component_name": "GROOVY",
+          "repository_url": "https://github.com/apache/groovy",
+          "codebase": "master"
+        },
+        {
+          "component_name": "GUAVA",
+          "repository_url": "https://github.com/google/guava",
+          "codebase": "master"
+        },
+        {
+          "component_name": "H2Database",
+          "repository_url": "http://git.app.eng.bos.redhat.com/git/h2database.git",
+          "codebase": "1.3.173-redhat"
         },
         {
           "component_name": "HAL",
@@ -45,6 +275,36 @@
           "codebase": "5.0"
         },
         {
+          "component_name": "Hibernate Annotations",
+          "repository_url": "https://github.com/hibernate/hibernate-commons-annotations",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Hibernate JPA API",
+          "repository_url": "http://anonsvn.jboss.org/repos/hibernate/jpa-api",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Hibernate Search",
+          "repository_url": "https://github.com/hibernate/hibernate-search",
+          "codebase": "5.5"
+        },
+        {
+          "component_name": "Hibernate Validator",
+          "repository_url": "https://github.com/hibernate/hibernate-validator",
+          "codebase": "5.2"
+        },
+        {
+          "component_name": "HornetQ",
+          "repository_url": "https://github.com/hornetq/hornetq/",
+          "codebase": "2.4.x"
+        },
+        {
+          "component_name": "IIOP Client",
+          "repository_url": "https://github.com/jbossas/jboss-iiop-client",
+          "codebase": "master"
+        },
+        {
           "component_name": "Infinispan",
           "repository_url": "https://github.com/infinispan/infinispan",
           "codebase": "8.1.x"
@@ -55,8 +315,123 @@
           "codebase": "1.3"
         },
         {
+          "component_name": "JANDEX",
+          "repository_url": ";https://github.com/wildfly/jandex",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JASYPT",
+          "repository_url": "https://svn.code.sf.net/p/jasypt/code",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Javassist",
+          "repository_url": "https://github.com/jboss-javassist/javassist",
+          "codebase": "3.18"
+        },
+        {
+          "component_name": "JAXBIntros",
+          "repository_url": "https://anonsvn.jboss.org/repos/jbossws/projects/jaxbintros",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Jaxen",
+          "repository_url": "https://github.com/codehaus/jaxen",
+          "codebase": "master"
+        },
+        {
           "component_name": "JBeret",
           "repository_url": "https://github.com/jberet/jsr352",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Annotations API 1.2 Spec",
+          "repository_url": "https://github.com/jboss/jboss-annotations-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Batch API 1.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-batch-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Common Beans",
+          "repository_url": "https://github.com/jboss/jboss-common-beans",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Connector API 1.7 Spec",
+          "repository_url": "https://github.com/jboss/jboss-connector-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Concurrency API 1.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-common-beans",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss EJB API 3.2 Spec",
+          "repository_url": "https://github.com/jboss/jboss-ejb-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss EL API 3.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-el-api_spec",
+          "codebase": "jboss-el-api_3.0-1.0.x"
+        },
+        {
+          "component_name": "JBoss JACC API 1.5 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jacc-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JASPI API 1.1 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jaspi-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss J2EE management API 1.1 Spec",
+          "repository_url": "https://github.com/jboss/jboss-j2eemgmt-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JAXB API 2.2 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jaxb-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JAXRPC API 1.1 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jaxrpc-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JAXRS API 2.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jaxrs-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JAXWS API 2.2 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jaxws-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JMS API 2.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jms-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JSF API 3.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jsf-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JSP API 2.3 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jsp-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss JSTL API 1.2 Spec",
+          "repository_url": "https://github.com/jboss/jboss-jstl-api_spec",
           "codebase": "master"
         },
         {
@@ -65,9 +440,104 @@
           "codebase": "master"
         },
         {
+          "component_name": "JBoss Metadata",
+          "repository_url": "https://github.com/jboss/metadata",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Negotiation",
+          "repository_url": "https://github.com/wildfly-security/jboss-negotiation",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Remote Naming",
+          "repository_url": "https://github.com/jbossas/jboss-remote-naming",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss RMI API 1.0 Spec",
+          "repository_url": "https://github.com/jboss/jboss-rmi-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss SAAJ API 1.3 Spec",
+          "repository_url": "https://github.com/jboss/jboss-saaj-api_spec",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Servlet API 3.1 Spec",
+          "repository_url": "https://github.com/jboss/jboss-servlet-api_spec",
+          "codebase": "servlet-api_3.1"
+        },
+        {
+          "component_name": "JBoss Transaction SPI",
+          "repository_url": "https://github.com/jbosstm/jboss-transaction-spi",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss Common",
+          "repository_url": "https://github.com/jbossws/jbossws-common",
+          "codebase": "jbossws-common-3.1.x"
+        },
+        {
+          "component_name": "JBoss Common Tools",
+          "repository_url": "https://github.com/jbossws/jbossws-common-tools",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss WS API",
+          "repository_url": "https://github.com/jbossws/jbossws-api",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JBoss WS SPI",
+          "repository_url": "https://github.com/jbossws/jbossws-api",
+          "codebase": "jbossws-spi-3.1.x"
+        },
+        {
+          "component_name": "JBoss XACML",
+          "repository_url": "https://github.com/picketbox/security-xacml",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JCIP",
+          "repository_url": "http://jcip.net/jcip-annotations-src.jar",
+          "codebase": ""
+        },
+        {
+          "component_name": "JDom",
+          "repository_url": "https://github.com/hunterhacker/jdom",
+          "codebase": "jdom-1.x"
+        },
+        {
           "component_name": "JGroups",
           "repository_url": "https://github.com/belaban/JGroups",
           "codebase": "master"
+        },
+        {
+          "component_name": "JGroups Azure",
+          "repository_url": "https://github.com/jgroups-extras/jgroups-azure",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JIPIJAPA",
+          "repository_url": "https://github.com/jipijapa/jipijapa",
+          "codebase": "1.0"
+        },
+        {
+          "component_name": "JodaTime",
+          "repository_url": "https://github.com/JodaOrg/joda-time",
+          "codebase": "master"
+        },
+        {
+          "component_name": "JSoup",
+          "repository_url": "https://github.com/jhy/jsoup",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Mod Cluster",
+          "repository_url": "https://github.com/modcluster/mod_cluster.git",
+          "codebase": "1.3.x"
         },
         {
           "component_name": "Narayana",
@@ -79,6 +549,16 @@
           "repository_url": "https://github.com/netty/netty",
           "codebase": "4.0"
         },
+	    {
+          "component_name": "Netty XNIO Transport",
+          "repository_url": "https://github.com/xnio/netty-xnio-transport",
+          "codebase": "master"
+        },
+	    {
+          "component_name": "Open JDK ORB",
+          "repository_url": "https://github.com/jboss/openjdk-orb",
+          "codebase": "master"
+        },
         {
           "component_name": "Picketbox",
           "repository_url": "https://github.com/picketbox/picketbox",
@@ -87,6 +567,11 @@
         {
           "component_name": "Picketlink",
           "repository_url": "https://github.com/picketlink/picketlink",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Relaxng Dataype",
+          "repository_url": "http://git.app.eng.bos.redhat.com/git/relaxng-datatype-java.git",
           "codebase": "master"
         },
         {
@@ -100,14 +585,109 @@
           "codebase": "3.0.x"
         },
         {
+          "component_name": "Rhino JS",
+          "repository_url": "https://github.com/mozilla/rhino",
+          "codebase": "Rhino1_7R2_BRANCH"
+        },
+        {
+          "component_name": "SEAM int",
+          "repository_url": "http://anonsvn.jboss.org/repos/jbossas/projects/jboss-seam-int",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Shibboleth Java Support",
+          "repository_url": "git://git.shibboleth.net/java-support",
+          "codebase": "master"
+        },
+	    {
+          "component_name": "Shibboleth Opensaml",
+          "repository_url": "https://svn.shibboleth.net/java-opensaml",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "Shrinkwrap",
+          "repository_url": "https://github.com/shrinkwrap/shrinkwrap",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Shrinkwrap Desccriptors",
+          "repository_url": "https://github.com/shrinkwrap/descriptors",
+          "codebase": "2.0.0-X"
+        },
+        {
+          "component_name": "SLF4J",
+          "repository_url": "https://github.com/qos-ch/slf4j",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Snake YAML",
+          "repository_url": "https://bitbucket.org/asomov/snakeyaml",
+          "codebase": "master"
+        },
+        {
+          "component_name": "SYSLOG4J",
+          "repository_url": "https://github.com/syslog4j/syslog4j",
+          "codebase": "master"
+        },
+        {
           "component_name": "Undertow",
           "repository_url": "https://github.com/undertow-io/undertow",
           "codebase": "1.3.x"
         },
         {
+          "component_name": "Undertow IO Jastow",
+          "repository_url": "https://github.com/undertow-io/jastow",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Undertow IO JS",
+          "repository_url": "https://github.com/undertow-io/undertow.js",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Undertow JAXWS SPI",
+          "repository_url": "https://github.com/jbossws/jaxws-undertow-httpspi",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Websockets API 1.1 Spec",
+          "repository_url": "https://github.com/jboss/jboss-websocket-api_spec",
+          "codebase": "master"
+        },
+        {
           "component_name": "Weld",
           "repository_url": "https://github.com/weld/core",
-          "codebase": "2.3"
+          "codebase": "2.4"
+        },
+        {
+          "component_name": "Weld API",
+          "repository_url": "https://github.com/weld/api",
+          "codebase": "2.4"
+        },
+        {
+          "component_name": "Wildfly Core",
+          "repository_url": "https://github.com/wildfly/wildfly-core",
+          "codebase": "master"
+        },
+        {
+          "component_name": "Wildfly Elytron Subsystem",
+          "repository_url": "https://github.com/wildfly-security/elytron-subsystem",
+          "codebase": "master"
+        },
+        {
+          "component_name": "WSDL4J",
+          "repository_url": "http://wsdl4j.cvs.sourceforge.net/viewvc/wsdl4j/wsdl4j/",
+          "codebase": "cvsroot"
+        },
+        {
+          "component_name": "XOM",
+          "repository_url": "https://svn.java.net/svn/xom~svn",
+          "codebase": "trunk"
+        },
+        {
+          "component_name": "XSOM",
+          "repository_url": "http://git.app.eng.bos.redhat.com/git/xsom.git",
+          "codebase": "20140925-redhat"
         }
       ]
     },
