@@ -135,11 +135,6 @@
           "codebase": "jboss-1.1.0-x"
         },
         {
-          "component_name": "ASM",
-          "repository_url": "svn://svn.forge.objectweb.org/svnroot/asm",
-          "codebase": ""
-        },
-        {
           "component_name": "AZURE",
           "repository_url": "https://github.com/Azure/azure-storage-java",
           "codebase": "master"
@@ -316,7 +311,7 @@
         },
         {
           "component_name": "JANDEX",
-          "repository_url": ";https://github.com/wildfly/jandex",
+          "repository_url": "https://github.com/wildfly/jandex",
           "codebase": "master"
         },
         {
@@ -594,12 +589,7 @@
           "repository_url": "http://anonsvn.jboss.org/repos/jbossas/projects/jboss-seam-int",
           "codebase": "trunk"
         },
-        {
-          "component_name": "Shibboleth Java Support",
-          "repository_url": "git://git.shibboleth.net/java-support",
-          "codebase": "master"
-        },
-	    {
+	{
           "component_name": "Shibboleth Opensaml",
           "repository_url": "https://svn.shibboleth.net/java-opensaml",
           "codebase": "trunk"
