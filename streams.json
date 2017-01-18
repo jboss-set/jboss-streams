@@ -2390,12 +2390,12 @@
           "component_name": "wsdl4j",
           "contacts": [],
           "repository_type": "CVS",
-          "repository_url": ":pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
+          "repository_url": "cvs://pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
           "codebase": "",
           "tag": "1.6.3",
           "version": "1.6.3",
           "gav": "wsdl4j",
-          "comment": "No 1.6.3 tag there"
+          "comment": "No 1.6.3 tag there. 'cvs://' prefix is temporary"
         },
         {
           "component_name": "xerces2-j",
@@ -4833,7 +4833,7 @@
           "component_name": "wsdl4j",
           "contacts": [],
           "repository_type": "CVS",
-          "repository_url": ":pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
+          "repository_url": "cvs://:pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
           "codebase": "",
           "tag": "1.6.3.redhat-2",
           "version": "1.6.3.redhat-2",
@@ -7054,7 +7054,7 @@
           "component_name": "wsdl4j",
           "contacts": [],
           "repository_type": "CVS",
-          "repository_url": ":pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
+          "repository_url": "cvs://:pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
           "codebase": "",
           "tag": "1.6.3.redhat-2",
           "version": "1.6.3.redhat-2",
