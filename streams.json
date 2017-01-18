@@ -8,7 +8,7 @@
           "component_name": "AESH",
           "repository_url": "https://github.com/aeshell/aesh",
           "codebase": "master"
-        },
+        }
         {
           "component_name": "ANTLR",
           "repository_url": "http://www.antlr2.org/download/antlr-2.7.7.tar.gz",
