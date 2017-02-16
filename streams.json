@@ -2348,6 +2348,18 @@
           "comment": ""
         },
         {
+          "component_name": "wildfly-wildfly",
+          "contacts": [
+              "bstansberry@redhat.com"],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/wildfly",
+          "codebase": "master",
+          "tag": "10.1.0.Final",
+          "version": "10.1.0.Final",
+          "gav": "org.wildfly",
+          "comment": ""
+        },
+        {
           "component_name": "wildfly-wildfly-common",
           "contacts": [
               "dlloyd@redhat.com"
@@ -4001,6 +4013,19 @@
           "tag": "1.4.0.Beta1",
           "version": "1.4.0.Beta1",
           "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-eap7",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-eap7",
+          "codebase": "7.x",
+          "tag": "EAP_7.1.0.DR11-dev",
+          "version": "7.1.0.Alpha1-redhat-1",
+          "gav": "org.jboss.eap",
           "comment": ""
         },
         {
@@ -6306,6 +6331,19 @@
           "comment": ""
         },
         {
+          "component_name": "jbossas-jboss-eap7",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-eap7",
+          "codebase": "7.0.x",
+          "tag": "EAP_7.0.4.CR2-dev",
+          "version": "7.0.4.GA-redhat-1",
+          "gav": "org.jboss.eap",
+          "comment": ""
+        },
+        {
           "component_name": "jbossas-jboss-ejb-client",
           "contacts": [
               "dlloyd@redhat.com"
@@ -6499,6 +6537,19 @@
           "version": "1.2.0.Final-redhat-1",
           "gav": "org.jboss",
           "comment": " master is at 1.4.0, there is no maintenance branch"
+        },
+        {
+          "component_name": "jbossas-wildfly-core-eap",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/wildfly-core-eap",
+          "codebase": "2.1.x",
+          "tag": "2.1.10.Final-redhat-dev",
+          "version": "2.1.10.Final-redhat-1",
+          "gav": "org.wildfly.core",
+          "comment": ""
         },
         {
           "component_name": "jbosstm-jboss-transaction-spi",
@@ -7037,19 +7088,7 @@
           "gav": "org.wildfly.common",
           "comment": ""
         },
-        {
-          "component_name": "wildfly-wildfly-core",
-          "contacts": [
-              "bstansberry@redhat.com"
-          ],
-          "repository_type": "GIT",
-          "repository_url": "https://github.com/jbossas/wildfly-core-eap",
-          "codebase": "2.1.x",
-          "tag": "2.1.10.Final-redhat-dev",
-          "version": "2.1.10.Final-redhat-1",
-          "gav": "org.wildfly.core",
-          "comment": ""
-        },
+
         {
           "component_name": "wsdl4j",
           "contacts": [],
@@ -7132,17 +7171,6 @@
           "repository_type": "",
           "repository_url": "https://github.com/aeshell/aesh",
           "codebase": "eap6.1",
-          "tag": "",
-          "version": "",
-          "gav": "",
-          "comment": ""
-        },
-        {
-          "component_name": "Application Server",
-          "contacts": [],
-          "repository_type": "",
-          "repository_url": "https://github.com/jbossas/jboss-eap",
-          "codebase": "6.4.x",
           "tag": "",
           "version": "",
           "gav": "",
@@ -7253,6 +7281,17 @@
           "repository_type": "",
           "repository_url": "https://github.com/jboss-logging/jboss-logging",
           "codebase": "3.1",
+          "tag": "",
+          "version": "",
+          "gav": "",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-eap",
+          "contacts": [],
+          "repository_type": "",
+          "repository_url": "https://github.com/jbossas/jboss-eap",
+          "codebase": "6.4.x",
           "tag": "",
           "version": "",
           "gav": "",
@@ -7463,17 +7502,6 @@
           "comment": ""
         },
         {
-          "component_name": "Application Server",
-          "contacts": [],
-          "repository_type": "",
-          "repository_url": "https://github.com/jbossas/jboss-eap",
-          "codebase": "6.3.x",
-          "tag": "",
-          "version": "",
-          "gav": "",
-          "comment": ""
-        },
-        {
           "component_name": "DMR",
           "contacts": [],
           "repository_type": "",
@@ -7567,6 +7595,17 @@
           "repository_type": "",
           "repository_url": "https://github.com/jboss-logging/jboss-logging",
           "codebase": "3.1",
+          "tag": "",
+          "version": "",
+          "gav": "",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-eap",
+          "contacts": [],
+          "repository_type": "",
+          "repository_url": "https://github.com/jbossas/jboss-eap",
+          "codebase": "6.3.x",
           "tag": "",
           "version": "",
           "gav": "",
