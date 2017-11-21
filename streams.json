@@ -2309,6 +2309,19 @@
           "comment": ""
         },
         {
+          "component_name": "wildfly-wildfly-naming-client",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/wildfly-naming-client.git",
+          "codebase": "master",
+          "tag": "1.0.7.Final",
+          "version": "1.0.7.Final",
+          "gav": "org.wildfly",
+          "comment": ""
+        },
+        {
           "component_name": "wsdl4j",
           "contacts": [],
           "repository_type": "CVS",
@@ -4684,6 +4697,19 @@
           "tag": "3.0.10.Final",
           "version": "3.0.10.Final-redhat-1",
           "gav": "org.wildfly.core",
+          "comment": ""
+        },
+        {
+          "component_name": "wildfly-wildfly-naming-client",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/wildfly-naming-client.git",
+          "codebase": "master",
+          "tag": "1.0.7.Final",
+          "version": "1.0.7.Final-redhat-1",
+          "gav": "org.wildfly",
           "comment": ""
         },
         {
