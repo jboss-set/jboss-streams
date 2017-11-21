@@ -4785,8 +4785,2399 @@
       ]
     },
     {
-      "name": "jboss-eap-7.0.z",
+      "name": "jboss-eap-7.1.z",
       "upstream": "jboss-eap-7.z.0",
+      "codebases": [
+        {
+          "component_name": "A-MQ-artemis-wildfly-integration",
+          "contacts": [
+              "mtaylor@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/rh-messaging/artemis-wildfly-integration.git",
+          "codebase": "master",
+          "tag": "1.0.2",
+          "version": "1.0.2.redhat-1",
+          "gav": "org.jboss.activemq.artemis.integration",
+          "comment": ""
+        },
+        {
+          "component_name": "aesh",
+          "contacts": [
+              "alexey.loubyansky@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/aeshell/aesh.git",
+          "codebase": "0.66.+",
+          "tag": "0.66.19",
+          "version": "0.66.19.redhat-1",
+          "gav": "org.jboss.aesh",
+          "comment": ""
+        },
+        {
+          "component_name": "antlr2",
+          "contacts": [
+              "parrt@cs.usfca.edu"
+          ],
+          "repository_type": "ARCHIVE",
+          "repository_url": "http://www.antlr2.org/download/antlr-2.7.7.tar.gz",
+          "codebase": "",
+          "tag": "2.7.7.redhat-7",
+          "version": "2.7.7.redhat-7",
+          "gav": "antlr",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-activemq-artemis",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/rh-messaging/jboss-activemq-artemis.git",
+          "codebase": "jboss-1.5.5-x",
+          "tag": "1.5.5.jbossorg-008",
+          "version": "1.5.5.008-redhat-1",
+          "gav": "org.apache.activemq",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-avro",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/avro.git",
+          "codebase": "branch-1.7",
+          "tag": "release-1.7.6",
+          "version": "1.7.6.redhat-1",
+          "gav": "org.apache.avro",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-beanutils",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-beanutils.git",
+          "codebase": "trunk",
+          "tag": "BEANUTILS_1_9_3",
+          "version": "1.9.3.redhat-1",
+          "gav": "commons-beanutils",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-cli",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-cli.git",
+          "codebase": "cli-1.x",
+          "tag": "cli-1.3.1",
+          "version": "1.3.1.redhat-1",
+          "gav": "commons-cli",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-codec",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-codec.git",
+          "codebase": "trunk",
+          "tag": "1.10",
+          "version": "1.10.0.redhat-5",
+          "gav": "commons-codec",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-collections",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-collections.git",
+          "codebase": "COLLECTIONS_3_2_X",
+          "tag": "COLLECTIONS_3_2_2",
+          "version": "3.2.2.redhat-2",
+          "gav": "commons-collections",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-digester",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-digester.git",
+          "codebase": "1_X_LINE",
+          "tag": "DIGESTER_1_8",
+          "version": "1.8",
+          "gav": "commons-digester",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-io",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-io.git",
+          "codebase": "master",
+          "tag": "2.5",
+          "version": "2.5.0.redhat-2",
+          "gav": "commons-io",
+          "comment": "there were three releases on the same day 2.2, 2.3 and 2.4..."
+        },
+        {
+          "component_name": "apache-commons-lang",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-lang.git",
+          "codebase": "LANG_2_X",
+          "tag": "LANG_2_6",
+          "version": "2.6.0.redhat-6",
+          "gav": "commons-lang",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-commons-pool",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/commons-pool.git",
+          "codebase": "POOL_1_X",
+          "tag": "POOL_1_6",
+          "version": "1.6.0.redhat-9",
+          "gav": "commons-pool",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-cxf",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/cxf.git",
+          "codebase": "3.1.x-fixes",
+          "tag": "cxf-3.1.12",
+          "version": "3.1.12.redhat-1",
+          "gav": "org.apache.cxf.archetype",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-directory-server",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/directory-server.git",
+          "codebase": "trunk",
+          "tag": "2.0.0-M20",
+          "version": "2.0.0-M20",
+          "gav": "org.apache.directory.server",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-httpasyncclient",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/httpasyncclient.git",
+          "codebase": "4.1.x",
+          "tag": "4.1.2",
+          "version": "4.1.2.redhat-1",
+          "gav": "org.apache.httpcomponents",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-httpclient",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/httpclient.git",
+          "codebase": "4.5.x",
+          "tag": "4.5.2",
+          "version": "4.5.2.redhat-1",
+          "gav": "org.apache.httpcomponents",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-httpcore",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/httpcore.git",
+          "codebase": "4.4.x",
+          "tag": "4.4.4",
+          "version": "4.4.4.redhat-1",
+          "gav": "org.apache.httpcomponents",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-lucene-solr",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/lucene-solr.git",
+          "codebase": "",
+          "tag": "5.3.1.redhat-2",
+          "version": "5.3.1.redhat-2",
+          "gav": "org.apache.lucene",
+          "comment": "No maintenance branch, history release from SVN ?"
+        },
+        {
+          "component_name": "apache-MIME4J",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/james-mime4j.git",
+          "codebase": "master",
+          "tag": "apache-mime4j-0.6",
+          "version": "0.6.0.redhat-6",
+          "gav": "org.apache.james",
+          "comment": "No maintenance branch, history release from SVN ?"
+        },
+        {
+          "component_name": "apache-myfaces-core",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://svn.apache.org/repos/asf/myfaces/core",
+          "codebase": "trunk",
+          "tag": "tags/myfaces-core-module-2.2.11/",
+          "version": "2.2.11",
+          "gav": "org.apache.myfaces.core",
+          "comment": "There is also 2.2.20 dep, tag is just a guess"
+        },
+        {
+          "component_name": "apache-santuario-java",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/santuario-java.git",
+          "codebase": "2.0.x-fixes",
+          "tag": "xmlsec-2.0.8",
+          "version": "2.0.8.redhat-1",
+          "gav": "org.apache.santuario",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-webservices-commons-xmlschema",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/webservices-xmlschema.git",
+          "codebase": "trunk",
+          "tag": "txmlschema-2.2.1",
+          "version": "2.2.1.redhat-1",
+          "gav": "org.apache.ws.xmlschema",
+          "comment": "GIT repo seemed far behind, now it looks up2date. SVN: http://svn.apache.org/repos/asf/webservices/xmlschema"
+        },
+        {
+          "component_name": "apache-velocity",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://svn.apache.org/repos/asf/velocity/engine",
+          "codebase": "branches/1.7.x",
+          "tag": "1.7",
+          "version": "1.7.0.redhat-5",
+          "gav": "org.apache.velocity",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-webservices-neethi",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/webservices-neethi.git",
+          "codebase": "trunk",
+          "tag": "neethi-3.0.3",
+          "version": "3.0.3.redhat-1",
+          "gav": "org.apache.neethi",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-OpenJPA",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/openjpa.git",
+          "codebase": "2.4.x",
+          "tag": "2.4.1",
+          "version": "2.4.1",
+          "gav": "org.apache.openjpa",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-wss4j",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/apache/wss4j.git",
+          "codebase": "2_1_x-fixes",
+          "tag": "wss4j-2.1.10",
+          "version": "2.1.10.redhat-1",
+          "gav": "org.apache.wss4j",
+          "comment": ""
+        },
+        {
+          "component_name": "apache-xjc-utils",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://git-wip-us.apache.org/repos/asf/cxf-xjc-utils.git",
+          "codebase": "master",
+          "tag": "xjc-utils-3.0.5",
+          "version": "3.0.5.redhat-2",
+          "gav": "org.apache.cxf.xjc-utils",
+          "comment": ""
+        },
+        {
+          "component_name": "asm",
+          "contacts": [
+              "Forax, Remi (?)"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "svn://svn.forge.objectweb.org/svnroot/asm",
+          "codebase": "",
+          "tag": "ASM_3_3_1",
+          "version": "3.3.1.redhat-13",
+          "gav": "asm",
+          "comment": " NOTE: no branch present?"
+        },
+        {
+          "component_name": "atinject",
+          "contacts": [
+              "https://code.google.com/p/atinject/people/list"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://atinject.googlecode.com/svn/trunk/",
+          "codebase": "",
+          "tag": "1.0.0.redhat-6",
+          "version": "1.0.0.redhat-6",
+          "gav": "javax.inject",
+          "comment": " NOTE repository is gone, since google sacked SVN"
+        },
+        {
+          "component_name": "Azure-azure-storage-java",
+          "contacts": [
+              "mlegerner@outlook.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/Azure/azure-storage-java.git",
+          "codebase": "master",
+          "tag": "v5.0.0",
+          "version": "5.0.0.redhat-1",
+          "gav": "com.microsoft.azure",
+          "comment": ""
+        },
+        {
+          "component_name": "bcgit-bc-java",
+          "contacts": [
+              "peter.dettman@bouncycastle.org"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/bcgit/bc-java.git",
+          "codebase": "master",
+          "tag": "r1rv56",
+          "version": "1.56.0.redhat-2",
+          "gav": "org.bouncycastle",
+          "comment": ""
+        },
+        {
+          "component_name": "beanvalidation-api",
+          "contacts": [
+              "ebernard@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/beanvalidation/beanvalidation-api.git",
+          "codebase": "1.1",
+          "tag": "1.1.0.Final",
+          "version": "1.1.0.Final-redhat-1",
+          "gav": "javax.validation",
+          "comment": ""
+        },
+        {
+          "component_name": "cal10n",
+          "contacts": [
+              "ceki@qos.ch"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/qos-ch/cal10n.git",
+          "codebase": "master",
+          "tag": "v_0.8.1",
+          "version": "0.8.1.redhat-1",
+          "gav": "ch.qos.cal10n",
+          "comment": ""
+        },
+        {
+          "component_name": "cdi-spec-cdi",
+          "contacts": [
+              "pmuir@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/cdi-spec/cdi.git",
+          "codebase": "1.2",
+          "tag": "1.2",
+          "version": "1.2.0.redhat-2",
+          "gav": "javax.enterprise",
+          "comment": ""
+        },
+        {
+          "component_name": "codehaus-jackson",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/codehaus/jackson.git",
+          "codebase": "master",
+          "tag": "1.9.13.redhat-4",
+          "version": "1.9.13.redhat-4",
+          "gav": "org.codehaus.jackson",
+          "comment": "There is no tag in repo, only commits?"
+        },
+        {
+          "component_name": "codehaus-jaxen",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/codehaus/jaxen.git",
+          "codebase": "master",
+          "tag": "V_1_1_6_Final",
+          "version": "1.1.6.redhat-1",
+          "gav": "jaxen",
+          "comment": ""
+        },
+        {
+          "component_name": "codehaus-jettison",
+          "contacts": [
+              "sergey_beryozkin"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/codehaus/jettison.git",
+          "codebase": "master",
+          "tag": "jettison-1.3.8",
+          "version": "1.3.8.redhat-1",
+          "gav": "org.codehaus.jettison",
+          "comment": ""
+        },
+        {
+          "component_name": "codehaus-woodstox-git",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/codehaus/woodstox.git",
+          "codebase": "",
+          "tag": "",
+          "version": "5.0.3.redhat-1",
+          "gav": "org.codehaus.woodstox",
+          "comment": " Content is weird, even our pom points to this repo, but is dead, should contain woodstox-core-asl"
+        },
+        {
+          "component_name": "dom4j",
+          "contacts": [
+              "Filip Jirsák"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/dom4j/dom4j.git",
+          "codebase": "master",
+          "tag": "dom4j_1_6_1",
+          "version": "1.6.1.redhat-7",
+          "gav": "dom4j",
+          "comment": ""
+        },
+        {
+          "component_name": "eclipse-link",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/eclipse/eclipselink.runtime.git",
+          "codebase": "2.6",
+          "tag": "2.6.3",
+          "version": "2.6.3",
+          "gav": "org.eclipse.persistence",
+          "comment": ""
+        },
+        {
+          "component_name": "eclipse-jdt-eclipse.jdt.core",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://git.eclipse.org/r/jdt/eclipse.jdt.core.git",
+          "codebase": "master",
+          "tag": "4.6.1.redhat-1",
+          "version": "4.6.1.redhat-1",
+          "gav": "org.eclipse.jdt.core.compiler",
+          "comment": "master is at 4.7, "
+        },
+        {
+          "component_name": "FasterXML-jackson-annotations",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-annotations.git",
+          "codebase": "2.8",
+          "tag": "jackson-annotations-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.core",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-jackson-core",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-core.git",
+          "codebase": "2.8",
+          "tag": "jackson-core-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.core",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-jackson-databind",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-databind.git",
+          "codebase": "2.8",
+          "tag": "jackson-databind-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.core",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-jackson-datatype-jdk8",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-datatype-jdk8.git",
+          "codebase": "2.8",
+          "tag": "jackson-datatype-jdk8-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.datatype",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-jackson-datatype-jsr310",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-datatype-jsr310.git",
+          "codebase": "master",
+          "tag": "jackson-datatype-jsr310-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.datatype",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-jackson-jaxrs-providers",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-jaxrs-providers.git",
+          "codebase": "2.8",
+          "tag": "jackson-jaxrs-providers-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.jaxrs",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-jackson-module-jaxb-annotations",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/jackson-module-jaxb-annotations.git",
+          "codebase": "2.8",
+          "tag": "jackson-module-jaxb-annotations-2.8.9",
+          "version": "2.8.9.redhat-1",
+          "gav": "com.fasterxml.jackson.module",
+          "comment": ""
+        },
+        {
+          "component_name": "FasterXML-stax2-api",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/stax2-api.git",
+          "codebase": "3.1",
+          "tag": "stax2-api-3.1.4",
+          "version": "3.1.4.redhat-1",
+          "gav": "org.codehaus.woodstox",
+          "comment": ""
+        },
+        {
+          "component_name": "gf-metro-jaxb",
+          "contacts": [
+              "Iaroslav Savytskyi SUN"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/gf-metro/jaxb.git",
+          "codebase": "jaxb-2_2_11-branch",
+          "tag": "",
+          "version": "2.2.11.redhat-4",
+          "gav": "com.sun.xml.bind.external",
+          "comment": " There is no 2.2.11 tag for 2.2.11.redhat-4 in main repo, "
+        },
+        {
+          "component_name": "glassfish-concurrent",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/cu-javaee~source-code-repository/",
+          "codebase": "trunk",
+          "tag": "tags/javax.enterprise.concurrent-1.0/",
+          "version": "1.0.0.redhat-1",
+          "gav": "org.glassfish",
+          "comment": ""
+        },
+        {
+          "component_name": "glassfish-fastinfoset",
+          "contacts": [
+              "https://java.net/projects/fi/members?page=4&project_id=fi&theme=java.net"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/fi~svn",
+          "codebase": "branches/FastInfoset-1_2-branch",
+          "tag": "",
+          "version": "1.2.13.redhat-1",
+          "gav": "com.sun.xml.fastinfoset",
+          "comment": " we are at 1.2.13, latest tag is '12'"
+        },
+        {
+          "component_name": "glassfish-jaf",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/glassfish~svn/trunk/v2/activation/",
+          "codebase": "",
+          "tag": "1.1.1.redhat-5",
+          "version": "1.1.1.redhat-5",
+          "gav": "javax.activation",
+          "comment": " No branch, messy repo, ant+mvn release"
+        },
+        {
+          "component_name": "glassfish-json",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "git://java.net/jsonp~git",
+          "codebase": "master",
+          "tag": "jsonp-1.0.4",
+          "version": "1.0.4.redhat-1",
+          "gav": "org.glassfish",
+          "comment": ""
+        },
+        {
+          "component_name": "guava-libraries",
+          "contacts": [
+              "Apache",
+              "Google",
+              "cgdecker@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/google/guava.git",
+          "codebase": "master",
+          "tag": "v20.0",
+          "version": "20.0.0.redhat-1",
+          "gav": "com.google.guava",
+          "comment": ""
+        },
+        {
+          "component_name": "h2database",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/h2database/h2database.git",
+          "codebase": "master",
+          "tag": "1.4.193",
+          "version": "1.4.193.redhat-2",
+          "gav": "com.h2database",
+          "comment": ""
+        },
+        {
+          "component_name": "hal-release-stream",
+          "contacts": [
+              "hpehl@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hal/release-stream.git",
+          "codebase": "master",
+          "tag": "2.9.15.Final",
+          "version": "2.9.15.Final-redhat-1",
+          "gav": "org.jboss.hal",
+          "comment": ""
+        },
+        {
+          "component_name": "hibernate-hibernate-commons-annotations",
+          "contacts": [
+              "ebernard@redhat.com",
+              "gbadner@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hibernate/hibernate-commons-annotations.git",
+          "codebase": "master",
+          "tag": "5.0.1.Final",
+          "version": "5.0.1.Final-redhat-2",
+          "gav": "org.hibernate.common",
+          "comment": ""
+        },
+        {
+          "component_name": "hibernate-hibernate-core",
+          "contacts": [
+              "ebernard@redhat.com",
+              "gbadner@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hibernate/hibernate-orm.git",
+          "codebase": "5.0",
+          "tag": "5.0.10",
+          "version": "5.0.10.Final-redhat-1",
+          "gav": "org.hibernate.orm",
+          "comment": ""
+        },
+        {
+          "component_name": "hibernate-hibernate-jpa-api",
+          "contacts": [
+              "ebernard@redhat.com",
+              "gbadner@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hibernate/hibernate-jpa-api.git",
+          "codebase": "master",
+          "tag": "2.10.Final",
+          "version": "1.0.0.Final-redhat-2",
+          "gav": "org.hibernate.javax.persistence",
+          "comment": "NOTE: maintenance is nightmare, gradle vs maven, in maintenance master API version is tag name? Artifacts in EAP 1.0.0.Final-redhat-2"
+        },
+        {
+          "component_name": "hibernate-hibernate-search",
+          "contacts": [
+              "ebernard@redhat.com",
+              "gbadner@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hibernate/hibernate-search.git",
+          "codebase": "5.5",
+          "tag": "5.5.8.Final",
+          "version": "5.5.8.Final-redhat-1",
+          "gav": "org.hibernate",
+          "comment": ""
+        },
+        {
+          "component_name": "hibernate-hibernate-validator",
+          "contacts": [
+              "ebernard@redhat.com",
+              "gbadner@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hibernate/hibernate-validator.git",
+          "codebase": "5.3",
+          "tag": "5.3.5.Final",
+          "version": "5.3.5.Final-redhat-2",
+          "gav": "org.hibernate",
+          "comment": ""
+        },
+        {
+          "component_name": "hibernate-jpa-api",
+          "contacts": [
+              "ebernard@redhat.com"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "https://anonsvn.jboss.org/repos/hibernate/jpa-api/",
+          "codebase": "trunk",
+          "tag": "tags/hibernate-jpa-2.0-api-1.0.1.Final",
+          "version": "1.0.1.Final",
+          "gav": "org.hibernate.javax.persistence",
+          "comment": "NOTE: this is best guess."
+        },
+        {
+          "component_name": "hornetq-hornetq",
+          "contacts": [
+              "jbertram@redhat.com",
+              "csuconic@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hornetq/hornetq.git",
+          "codebase": "2.4.x",
+          "tag": "HornetQ_2_4_7_Final",
+          "version": "2.4.7.Final-redhat-1",
+          "gav": "org.hornetq",
+          "comment": ""
+        },
+        {
+          "component_name": "httpcomponents",
+          "contacts": [
+              "apache"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://svn.apache.org/repos/asf/httpcomponents/",
+          "codebase": "httpcore/branches/4.4.x",
+          "tag": "httpcore/tags/4.4.4",
+          "version": "4.4.4.redhat-1",
+          "gav": "org.apache.httpcomponents",
+          "comment": "Many components/projects in single repo. Branch/tag is just an example. git.app seem to be dead?"
+        },
+        {
+          "component_name": "infinispan-infinispan",
+          "contacts": [
+              "Manik Surtani",
+              "gzamarre@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/infinispan/infinispan.git",
+          "codebase": "8.2.x",
+          "tag": "8.2.8.Final",
+          "version": "8.2.8.Final-redhat-1",
+          "gav": "org.infinispan",
+          "comment": ""
+        },
+        {
+          "component_name": "ironjacamar",
+          "contacts": [
+              "jesper.pedersen@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/ironjacamar/ironjacamar.git",
+          "codebase": "1.4",
+          "tag": "ironjacamar-1.4.6.Final",
+          "version": "1.4.6.Final-redhat-1",
+          "gav": "org.jboss.ironjacamar",
+          "comment": ""
+        },
+        {
+          "component_name": "istack-commons",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/istack-commons~svn",
+          "codebase": "trunk",
+          "tag": "tags/istack-commons-2.21",
+          "version": "2.21.0.redhat-1",
+          "gav": "com.sun.istack",
+          "comment": " No maintenance branch for 2.21, trunk is at 3.x"
+        },
+        {
+          "component_name": "jandex",
+          "contacts": [
+              "jason.greene@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/jandex.git",
+          "codebase": "master",
+          "tag": "2.0.3.Final",
+          "version": "2.0.3.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jansi",
+          "contacts": [
+              "Hiram Chirino - FuseSource Corp."
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/fusesource/jansi.git",
+          "codebase": "master",
+          "tag": "jansi-project-1.16",
+          "version": "1.16.0.redhat-4",
+          "gav": "org.fusesource.jansi",
+          "comment": ""
+        },
+        {
+          "component_name": "jasypt",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.code.sf.net/p/jasypt/code/",
+          "codebase": "trunk/jasypt",
+          "tag": "tags/jasypt/jasypt-1.9.2",
+          "version": "1.9.2.redhat-1",
+          "gav": "org.jasypt",
+          "comment": ""
+        },
+        {
+          "component_name": "java-classmate",
+          "contacts": [
+              "tsaloranta@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/FasterXML/java-classmate.git",
+          "codebase": "master",
+          "tag": "classmate-1.3.3",
+          "version": "1.3.3.redhat-1",
+          "gav": "com.fasterxml",
+          "comment": ""
+        },
+        {
+          "component_name": "java-getopt",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/arenn/java-getopt.git",
+          "codebase": "",
+          "tag": "1.0.13.redhat-5",
+          "version": "1.0.13.redhat-5",
+          "gav": "gnu.getopt",
+          "comment": " Master is the branch, no tags, just binary"
+        },
+        {
+          "component_name": "jaxb~version2",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/jaxb~version2/",
+          "codebase": "branches/jaxb-2_2_5_1",
+          "tag": "tags/jaxb-2_2_5/",
+          "version": "2.2.11.redhat-4",
+          "gav": "com.sun.xml.bind",
+          "comment": "This is best guess. EAPs are at 2.2.11(I think)"
+        },
+        {
+          "component_name": "jberet-jsr352",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jberet/jsr352.git",
+          "codebase": "1.2.x",
+          "tag": "1.2.4.Final",
+          "version": "1.2.4.Final-redhat-1",
+          "gav": "org.jberet",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-glassfish-javamail",
+          "contacts": [],
+          "repository_type": "UNKNOWN",
+          "repository_url": "https://kenai.com/hg/javamail~mercurial",
+          "codebase": "",
+          "tag": "1.5.6.redhat-1",
+          "version": "1.5.6.redhat-1",
+          "gav": "com.sun.mail",
+          "comment": "No maintenance branch, only 'trunk', last tag is 1.5.0"
+        },
+        {
+          "component_name": "jboss-javassist-javassist",
+          "contacts": [
+              "Shigeru Chiba"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-javassist/javassist.git",
+          "codebase": "master",
+          "tag": "rel_3_20_0_ga",
+          "version": "3.20.0.GA-redhat-3",
+          "gav": "org.javassist",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-annotations-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-annotations-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-annotations-api_1.2_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.annotation",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-batch-api_spec",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-batch-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-batch-api_1.0_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.batch",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-common-beans",
+          "contacts": [
+              "cdewolf@redhat.com",
+              "bbaranow@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-common-beans.git",
+          "codebase": "master",
+          "tag": "2.0.0.Final",
+          "version": "2.0.0.Final-redhat-1",
+          "gav": "org.jboss.common",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-connector-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-connector-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-connector-api_1.7_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.resource",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-ejb-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-ejb-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-ejb-api_3.2_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.ejb",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-el-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-el-api_spec.git",
+          "codebase": "jboss-el-api_3.0-1.0.x",
+          "tag": "jboss-el-api_3.0_spec-1.0.9.Final",
+          "version": "1.0.9.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.el",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-interceptors-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-interceptors-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-interceptors-api_1.2_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.interceptor",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-j2eemgmt-api_spec",
+          "contacts": [
+              "pgier@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-j2eemgmt-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-j2eemgmt-api_1.1_spec-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-4",
+          "gav": "org.jboss.spec.javax.management.j2ee",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jacc-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jacc-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jacc-api_1.5_spec-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.security.jacc",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jaspi-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jaspi-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jaspi-api_1.1_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.security.auth.message",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-javaee-concurrency-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-javaee-concurrency-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-concurrency-api_1.0_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.enterprise.concurrent",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jaxb-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jaxb-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jaxb-api_2.2_spec-1.0.4.Final",
+          "version": "1.0.4.Final-redhat-4",
+          "gav": "org.jboss.spec.javax.xml.bind",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jaxrpc-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jaxrpc-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jaxrpc-api_1.1_spec-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-5",
+          "gav": "org.jboss.spec.javax.xml.rpc",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jaxrs-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jaxrs-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jaxrs-api_2.0_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.ws.rs",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jaxws-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jaxws-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jaxws-api_2.2_spec-2.0.4.Final",
+          "version": "2.0.4.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.xml.ws",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jms-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jms-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jms-api_2.0_spec-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.jms",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jsf-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jsf-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jsf-api_2.2_spec-2.2.13.Final",
+          "version": "2.2.13.redhat-1",
+          "gav": "org.jboss.spec.javax.faces",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-jsp-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-jsp-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-jsp-api_2.3_spec-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.servlet.jsp",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-rmi-api_spec",
+          "contacts": [
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-rmi-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-rmi-api_1.0_spec-1.0.5.Final",
+          "version": "1.0.5.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.rmi",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-saaj-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-saaj-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-saaj-api_1.3_spec-1.0.4.Final",
+          "version": "1.0.4.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.xml.soap",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-servlet-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com",
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-servlet-api_spec.git",
+          "codebase": "servlet-api_3.1",
+          "tag": "jboss-servlet-api_3.1_spec-1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.servlet",
+          "comment": "There is also APIv2.3 in deps"
+        },
+        {
+          "component_name": "jboss-jboss-transaction-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com",
+              "tcerar@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-transaction-api_spec.git",
+          "codebase": "master",
+          "tag": "jboss-transaction-api_1.2_spec-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.transaction",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-jboss-websocket-api_spec",
+          "contacts": [
+              "smcgowan@redhat.com",
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/jboss-websocket-api_spec.git",
+          "codebase": "master",
+          "tag": "1.1.1.Final",
+          "version": "1.1.1.Final-redhat-1",
+          "gav": "org.jboss.spec.javax.websocket",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-logging",
+          "contacts": [
+              "jperkins@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/jboss-logging.git",
+          "codebase": "master",
+          "tag": "3.3.1.Final",
+          "version": "3.3.1.Final-redhat-1",
+          "gav": "org.jboss.logging",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-logging-commons-logging-jboss-logmanager",
+          "contacts": [
+              "jperkins@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/commons-logging-jboss-logmanager.git",
+          "codebase": "master",
+          "tag": "1.0.2.Final",
+          "version": "1.0.2.Final-redhat-1",
+          "gav": "org.jboss.logmanager",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-logging-jul-to-slf4j-stub",
+          "contacts": [
+              "jperkins@redhat.com",
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/jul-to-slf4j-stub.git",
+          "codebase": "master",
+          "tag": "1.0.1.Final",
+          "version": "1.0.1.Final-redhat-3",
+          "gav": "org.jboss.logging",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-logging-log4j-jboss-logmanager",
+          "contacts": [
+              "jperkins@redhat.com",
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/log4j-jboss-logmanager.git",
+          "codebase": "master",
+          "tag": "1.1.4.Final",
+          "version": "1.1.4.Final-redhat-1",
+          "gav": "org.jboss.logmanager",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-logging-slf4j-jboss-logmanager",
+          "contacts": [
+              "jperkins@redhat.com",
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/slf4j-jboss-logmanager.git",
+          "codebase": "master",
+          "tag": "1.0.3.GA",
+          "version": "1.0.3.GA-redhat-2",
+          "gav": "org.jboss.slf4j",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-logmanager",
+          "contacts": [
+              "jperkins@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/jboss-logmanager.git",
+          "codebase": "2.0",
+          "tag": "2.0.7.Final",
+          "version": "2.0.7.Final-redhat-1",
+          "gav": "org.jboss.logmanager",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-metadata",
+          "contacts": [
+              "cdewolf@@redhat.com",
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/metadata.git",
+          "codebase": "master",
+          "tag": "10.0.2.Final",
+          "version": "10.0.2.Final-redhat-1",
+          "gav": "org.jboss.metadata",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-negotiation",
+          "contacts": [
+              "darran.lofthouse@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly-security/jboss-negotiation.git",
+          "codebase": "master",
+          "tag": "3.0.4.Final",
+          "version": "3.0.4.Final-redhat-1",
+          "gav": "org.jboss.security",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-openjdk-orb",
+          "contacts": [
+              "tadamski@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/openjdk-orb.git",
+          "codebase": "master",
+          "tag": "openjdk-orb-8.0.8.Final",
+          "version": "8.0.8.Final-redhat-1",
+          "gav": "org.jboss.openjdk-orb",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-remoting-jboss-marshalling",
+          "contacts": [
+              "ropalka@redhat.com",
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-remoting/jboss-marshalling.git",
+          "codebase": "master",
+          "tag": "2.0.2.Final",
+          "version": "2.0.2.Final-redhat-1",
+          "gav": "org.jboss.marshalling",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-remoting-jboss-remoting",
+          "contacts": [
+              "dlloyd@redhat.com",
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-remoting/jboss-remoting.git",
+          "codebase": "master",
+          "tag": "5.0.5.Final",
+          "version": "5.0.5.Final-redhat-1",
+          "gav": "org.jboss.remoting",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-remoting-xnio",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/xnio/xnio.git",
+          "codebase": "3.5",
+          "tag": "3.5.4.Final",
+          "version": "3.5.4.Final-redhat-1",
+          "gav": "org.jboss.xnio",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-uel",
+          "contacts": [
+              "tcerar@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/uel.git",
+          "codebase": "master",
+          "tag": "3.0.1-b08-jbossorg-1",
+          "version": "3.0.1.b08-redhat-1",
+          "gav": "org.glassfish",
+          "comment": ""
+        },
+        {
+          "component_name": "jboss-xalan-j",
+          "contacts": [
+              "jgreene@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss/xalan-j.git",
+          "codebase": "jboss_2_7_1",
+          "tag": "2.7.1.jbossorg-2",
+          "version": "2.7.1.redhat-11",
+          "gav": "xalan",
+          "comment": "Upstream of this belongs to Apache. git.app branch is up2date with branch and tags are made from it."
+        },
+        {
+          "component_name": "jbossas-jboss-classfilewriter",
+          "contacts": [
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-classfilewriter.git",
+          "codebase": "master",
+          "tag": "1.2.1.Final",
+          "version": "1.2.1.Final-redhat-1",
+          "gav": "org.jboss.classfilewriter",
+          "comment": " master is at 1.2 now"
+        },
+        {
+          "component_name": "jbossas-jboss-dmr",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-dmr.git",
+          "codebase": "master",
+          "tag": "1.4.1.Final",
+          "version": "1.4.1.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-eap7",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-eap7.git",
+          "codebase": "7.x",
+          "tag": "EAP_7.1.0.CR4-dev-3",
+          "version": "7.1.0.GA-redhat-SNAPSHOT",
+          "gav": "org.jboss.eap",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-ejb-client",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-ejb-client.git",
+          "codebase": "master",
+          "tag": "4.0.9.Final",
+          "version": "4.0.9.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-ejb-client-legacy",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-ejb-client.git",
+          "codebase": "3.x",
+          "tag": "3.0.2.Final",
+          "version": "3.0.2.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-iiop-client",
+          "contacts": [
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-iiop-client.git",
+          "codebase": "master",
+          "tag": "1.0.1.Final",
+          "version": "1.0.1.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-invocation",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-invocation.git",
+          "codebase": "master",
+          "tag": "1.5.0.Final",
+          "version": "1.5.0.Final-redhat-1",
+          "gav": "org.jboss.invocation",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-modules",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-modules.git",
+          "codebase": "1.6",
+          "tag": "1.6.0.Final",
+          "version": "1.6.0.Final-redhat-1",
+          "gav": "org.jboss.modules",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-msc",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-msc.git",
+          "codebase": "1.2",
+          "tag": "1.2.7.SP1",
+          "version": "1.2.7.SP1-redhat-1",
+          "gav": "org.jboss.msc",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-seam-int",
+          "contacts": [
+              "ajustin@redhat.com"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "https://anonsvn.jboss.org/repos/jbossas/projects/jboss-seam-int",
+          "codebase": "trunk",
+          "tag": "tags/7.0.0.GA",
+          "version": "7.0.0.GA-redhat-2",
+          "gav": "org.jboss.seam.integration",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-stdio",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jboss-logging/jboss-stdio.git",
+          "codebase": "1.0",
+          "tag": "1.0.2.GA",
+          "version": "1.0.2.GA-redhat-2",
+          "gav": "org.jboss.stdio",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-threads",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-threads.git",
+          "codebase": "2.2",
+          "tag": "2.2.1.Final",
+          "version": "2.2.1.Final-redhat-1",
+          "gav": "org.jboss.threads",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-vfs",
+          "contacts": [
+              "tcerar@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/jboss-vfs.git",
+          "codebase": "3.2",
+          "tag": "jboss-vfs-3.2.12.Final",
+          "version": "3.2.12.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-jboss-xacml-main",
+          "contacts": [
+              "pskope@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/picketbox/security-xacml.git",
+          "codebase": "master",
+          "tag": "",
+          "version": "2.0.8.Final-redhat-8",
+          "gav": "org.jboss.security",
+          "comment": " No tag in repo, present is 2.0.9, EAP is at 2.0.8.Final-redhat-7, it is in SVN at jbossas-projects-security-security-xacml"
+        },
+        {
+          "component_name": "jbossas-redhat-picketlink",
+          "contacts": [
+              "pskopek@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/redhat-picketlink.git",
+          "codebase": "eap-7.x",
+          "tag": "v2.5.5.SP8",
+          "version": "2.5.5.SP8-redhat-1",
+          "gav": "org.picketlink",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-remoting-jmx",
+          "contacts": [
+              "darran.lofthouse@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/remoting-jmx.git",
+          "codebase": "3.0.x",
+          "tag": "3.0.0.Final",
+          "version": "3.0.0.Final-redhat-1",
+          "gav": "org.jboss.remotingjmx",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossas-staxmapper",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/staxmapper.git",
+          "codebase": "master",
+          "tag": "1.3.0.Final",
+          "version": "1.3.0.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": " master is at 1.4.0, there is no maintenance branch"
+        },
+        {
+          "component_name": "jbosstm-jboss-transaction-spi",
+          "contacts": [
+              "mmusgrov@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbosstm/jboss-transaction-spi.git",
+          "codebase": "master",
+          "tag": "7.6.0.Final",
+          "version": "7.6.0.Final-redhat-1",
+          "gav": "org.jboss",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jaxws-undertow-httpspi",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossws/jaxws-undertow-httpspi.git",
+          "codebase": "master",
+          "tag": "jaxws-undertow-httpspi-1.0.1.Final",
+          "version": "1.0.1.Final-redhat-1",
+          "gav": "org.jboss.ws.projects",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jboss-jaxb-intros",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://anonsvn.jboss.org/repos/jbossws/projects/jaxbintros",
+          "codebase": "trunk",
+          "tag": "tags/1.0.2.GA",
+          "version": "1.0.2.GA-redhat-8",
+          "gav": "jboss.jaxbintros",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jbossws-api",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossws/jbossws-api.git",
+          "codebase": "master",
+          "tag": "jbossws-api-1.0.3.Final",
+          "version": "1.0.3.Final-redhat-1",
+          "gav": "org.jboss.ws",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jbossws-common",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossws/jbossws-common.git",
+          "codebase": "jbossws-common-3.1.x",
+          "tag": "jbossws-common-3.1.5.Final",
+          "version": "3.1.5.Final-redhat-1",
+          "gav": "org.jboss.ws",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jbossws-common-tools",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossws/jbossws-common-tools.git",
+          "codebase": "master",
+          "tag": "jbossws-common-tools-1.2.4.Final",
+          "version": "1.2.4.Final-redhat-1",
+          "gav": "org.jboss.ws",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jbossws-cxf",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossws/jbossws-cxf.git",
+          "codebase": "jbossws-cxf-5.1.x",
+          "tag": "jbossws-cxf-5.1.9.Final",
+          "version": "5.1.9.Final-redhat-1",
+          "gav": "org.jboss.ws.cxf",
+          "comment": ""
+        },
+        {
+          "component_name": "jbossws-jbossws-spi",
+          "contacts": [
+              "asoldano@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossws/jbossws-spi.git",
+          "codebase": "jbossws-spi-3.1.x",
+          "tag": "jbossws-spi-3.1.4.Final",
+          "version": "3.1.4.Final-redhat-1",
+          "gav": "org.jboss.ws",
+          "comment": ""
+        },
+        {
+          "component_name": "jcip-annotations",
+          "contacts": [],
+          "repository_type": "ARCHIVE",
+          "repository_url": "http://jcip.net/jcip-annotations-src.jar",
+          "codebase": "",
+          "tag": "1.0.redhat-8",
+          "version": "1.0.0.redhat-8",
+          "gav": "net.jcip",
+          "comment": ""
+        },
+        {
+          "component_name": "jdeparser",
+          "contacts": [
+              "tcerar@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jdeparser/jdeparser.git",
+          "codebase": "",
+          "tag": "",
+          "version": "2.0.0.Final",
+          "gav": "org.jboss.jdeparser",
+          "comment": " EAP7  is at 2.x, repo has 1.0 and 1.1"
+        },
+        {
+          "component_name": "jdom",
+          "contacts": [
+              "https://github.com/rolfl"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/hunterhacker/jdom.git",
+          "codebase": "jdom-1.1",
+          "tag": "jdom-1.1.3",
+          "version": "1.1.3.redhat-3",
+          "gav": "org.jdom",
+          "comment": ""
+        },
+        {
+          "component_name": "JGroups",
+          "contacts": [
+              "belaban@yahoo.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/belaban/JGroups.git",
+          "codebase": "3.6",
+          "tag": "JGroups-3.6.13.Final",
+          "version": "3.6.13.Final-redhat-2",
+          "gav": "org.jgroups",
+          "comment": ""
+        },
+        {
+          "component_name": "jgroups-extras-jgroups-azure",
+          "contacts": [
+              "rhusar@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jgroups-extras/jgroups-azure.git",
+          "codebase": "master",
+          "tag": "1.0.0.Final",
+          "version": "1.0.0.Final-redhat-1",
+          "gav": "org.jgroups",
+          "comment": ""
+        },
+        {
+          "component_name": "jhy-jsoup",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jhy/jsoup.git",
+          "codebase": "master",
+          "tag": "jsoup-1.8.3",
+          "version": "1.8.3.redhat-2",
+          "gav": "org.jsoup",
+          "comment": " There is no maintenance branch for 1.8, master is at 1.10"
+        },
+        {
+          "component_name": "JIPIJAPA",
+          "contacts": [
+              "smarlow@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jipijapa/jipijapa.git",
+          "codebase": "1.0",
+          "tag": "1.0.1.Final",
+          "version": "1.0.1.Final",
+          "gav": "org.jipijapa",
+          "comment": ""
+        },
+        {
+          "component_name": "jms-ra-generic-jms-ra",
+          "contacts": [
+              "jmesnil@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jms-ra/generic-jms-ra.git",
+          "codebase": "master",
+          "tag": "2.0.0.Final",
+          "version": "2.0.0.Final-redhat-1",
+          "gav": "org.jboss.genericjms",
+          "comment": " This is clone of another repo"
+        },
+        {
+          "component_name": "joda-time",
+          "contacts": [
+              "scolebourne@joda.org"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/JodaOrg/joda-time.git",
+          "codebase": "master",
+          "tag": "v2.9.7",
+          "version": "2.9.7.redhat-1",
+          "gav": "joda-time",
+          "comment": " "
+        },
+        {
+          "component_name": "jsr181-api",
+          "contacts": [],
+          "repository_type": "ARCHIVE",
+          "repository_url": "http://repo1.maven.org/maven2/javax/jws/jsr181-api/1.0-MR1/jsr181-api-1.0-MR1-sources.jar",
+          "codebase": "",
+          "tag": "",
+          "version": "1.0.0.MR1-redhat-8",
+          "gav": "javax.jws",
+          "comment": ""
+        },
+        {
+          "component_name": "mod_cluster",
+          "contacts": [
+              "jclere@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/modcluster/mod_cluster.git",
+          "codebase": "1.3.x",
+          "tag": "1.3.7.Final",
+          "version": "1.3.7.Final-redhat-1",
+          "gav": "org.jboss.mod_cluster",
+          "comment": ""
+        },
+        {
+          "component_name": "narayana",
+          "contacts": [
+              "tom.jenkinson@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbosstm/narayana.git",
+          "codebase": "5.5",
+          "tag": "5.5.30.Final",
+          "version": "5.5.30.Final-redhat-1",
+          "gav": "org.jboss.narayana",
+          "comment": ""
+        },
+        {
+          "component_name": "netty-netty",
+          "contacts": [
+              "t@motd.kr"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/netty/netty.git",
+          "codebase": "4.1",
+          "tag": "netty-4.1.9.Final",
+          "version": "4.1.9.Final-redhat-1",
+          "gav": "io.netty",
+          "comment": ""
+        },
+        {
+          "component_name": "picketbox",
+          "contacts": [
+              "pskopek@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/redhat-picketbox.git",
+          "codebase": "master",
+          "tag": "5.0.2.Final",
+          "version": "5.0.2.Final-redhat-1",
+          "gav": "org.picketbox",
+          "comment": " There is eap-7.x(4.9.x) branch, but current 7.x is at master. No tag, last is 5.0.0A3, 7.x is at A3"
+        },
+        {
+          "component_name": "picketbox-commons",
+          "contacts": [
+              "pskopek@redhat.com"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://anonsvn.jboss.org/repos/picketbox/commons",
+          "codebase": "trunk",
+          "tag": "tags/1.0.0.final",
+          "version": "1.0.0.final-redhat-5",
+          "gav": "org.picketbox",
+          "comment": ""
+        },
+        {
+          "component_name": "picketlink-bindings-25",
+          "contacts": [
+              "pskopek@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/redhat-picketlink-bindings.git",
+          "codebase": "eap-7.x",
+          "tag": "v2.5.5.SP8",
+          "version": "2.5.5.SP8-redhat-1",
+          "gav": "org.picketlink.distribution",
+          "comment": ""
+        },
+        {
+          "component_name": "relaxng-datatype-java",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "git://git.app.eng.bos.redhat.com/relaxng-datatype-java.git",
+          "codebase": "",
+          "tag": "2011.1.0.redhat-10",
+          "version": "2011.1.0.redhat-10",
+          "gav": "com.github.relaxng",
+          "comment": " No upstream, only repo is git.app ?"
+        },
+        {
+          "component_name": "resteasy",
+          "contacts": [
+              "alessio.soldano@jboss.com",
+              "bburke@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/resteasy/resteasy.git",
+          "codebase": "3.0",
+          "tag": "3.0.24.Final",
+          "version": "3.0.24.Final-redhat-1",
+          "gav": "org.jboss.resteasy",
+          "comment": " There is https://github.com/jbossas/redhat-resteasy but it is dead?"
+        },
+        {
+          "component_name": "rhino-js",
+          "contacts": [
+              "mozilla",
+              "igor.bukanov@gmail.com",
+              "igor@mir2.org"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/mozilla/rhino.git",
+          "codebase": "Rhino1_7R2_BRANCH",
+          "tag": "",
+          "version": "1.7R2",
+          "gav": "rhino",
+          "comment": "No tag 1.7.R2 in repo"
+        },
+        {
+          "component_name": "saaj-impl",
+          "contacts": [
+              "cdewolf@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/jbossas/redhat-saaj.git",
+          "codebase": "1.3.16.SP",
+          "tag": "saaj-impl-1.3.16.SP1",
+          "version": "1.3.16.SP1-redhat-6",
+          "gav": "com.sun.xml.messaging.saaj",
+          "comment": " There are upstream repos."
+        },
+        {
+          "component_name": "shibboleth-java-opensaml",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.shibboleth.net/java-opensaml",
+          "codebase": "trunk",
+          "tag": "tags/3.1.1",
+          "version": "3.1.1.redhat-1",
+          "gav": "org.opensaml",
+          "comment": ""
+        },
+        {
+          "component_name": "shibboleth-utilities-java-support",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "git://git.shibboleth.net/java-support.git",
+          "codebase": "",
+          "tag": "7.1.1.redhat-2",
+          "version": "7.1.1.redhat-2",
+          "gav": "net.shibboleth.utilities",
+          "comment": " Repo is dead?"
+        },
+        {
+          "component_name": "shrinkwrap-shrinkwrap",
+          "contacts": [
+              "arubinge@redhat.com",
+              "aknutsen@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/shrinkwrap/shrinkwrap.git",
+          "codebase": "1.2.X",
+          "tag": "1.2.6",
+          "version": "1.2.6",
+          "gav": "org.jboss.shrinkwrap",
+          "comment": " There is no 1.1.x, only 1.0.x. Master is at 1.2.x"
+        },
+        {
+          "component_name": "shrinkwrap-shrinkwrap-descriptors",
+          "contacts": [
+              "arubinge@redhat.com",
+              "aknutsen@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/shrinkwrap/descriptors.git",
+          "codebase": "2.0.0-X",
+          "tag": "2.0.0-alpha-10",
+          "version": "2.0.0-alpha-10",
+          "gav": "org.jboss.shrinkwrap.descriptors",
+          "comment": ""
+        },
+        {
+          "component_name": "slf4j",
+          "contacts": [
+              "ceki@qos.ch"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/qos-ch/slf4j.git",
+          "codebase": "master",
+          "tag": "v1.7.22",
+          "version": "1.7.22.redhat-1",
+          "gav": "org.slf4j",
+          "comment": ""
+        },
+        {
+          "component_name": "snakeyaml",
+          "contacts": [
+              "Andrey Somov"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://bitbucket.org/asomov/snakeyaml.git",
+          "codebase": "default",
+          "tag": "v1.17",
+          "version": "1.17.0.redhat-1",
+          "gav": "org.yaml",
+          "comment": ""
+        },
+        {
+          "component_name": "spullara-mustache.java",
+          "contacts": [
+              "sam@sampullara.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/spullara/mustache.java.git",
+          "codebase": "master",
+          "tag": "mustache.java-0.9.4",
+          "version": "0.9.4.redhat-1",
+          "gav": "com.github.spullara.mustache.java",
+          "comment": ""
+        },
+        {
+          "component_name": "syslog4j",
+          "contacts": [
+              "sam@sampullara.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/syslog4j/syslog4j.git",
+          "codebase": "master",
+          "tag": "",
+          "version": "0.9.30",
+          "gav": "org.syslog4j",
+          "comment": "No release in repo"
+        },
+        {
+          "component_name": "undertow-io-jastow",
+          "contacts": [
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/undertow-io/jastow.git",
+          "codebase": "master",
+          "tag": "2.0.2.Final",
+          "version": "2.0.2.Final-redhat-1",
+          "gav": "io.undertow.jastow",
+          "comment": ""
+        },
+        {
+          "component_name": "undertow-io-undertow",
+          "contacts": [
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/undertow-io/undertow.git",
+          "codebase": "1.4.x",
+          "tag": "1.4.18.Final",
+          "version": "1.4.18.Final-redhat-2",
+          "gav": "io.undertow",
+          "comment": ""
+        },
+        {
+          "component_name": "undertow-io-undertow-js",
+          "contacts": [
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/undertow-io/undertow.js.git",
+          "codebase": "1.0.x",
+          "tag": "1.0.2.Final",
+          "version": "1.0.2.Final-redhat-1",
+          "gav": "io.undertow.js",
+          "comment": ""
+        },
+        {
+          "component_name": "vt-middleware-cryptacular",
+          "contacts": [
+              "marvin.addison@gmail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/vt-middleware/cryptacular.git",
+          "codebase": "master",
+          "tag": "v1.2.0",
+          "version": "1.2.0.redhat-1",
+          "gav": "org.cryptacular",
+          "comment": ""
+        },
+        {
+          "component_name": "weld-api",
+          "contacts": [
+              "mkouba@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/weld/api.git",
+          "codebase": "2.4",
+          "tag": "2.4.SP1",
+          "version": "2.4.0.SP1-redhat-1",
+          "gav": "org.jboss.weld",
+          "comment": ""
+        },
+        {
+          "component_name": "weld-cdi-api",
+          "contacts": [
+              "pmuir@redhat.com"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "http://anonsvn.jboss.org/repos/weld/cdi-api/",
+          "codebase": "",
+          "tag": "",
+          "version": "1.2.0.redhat-2",
+          "gav": "javax.enterprise",
+          "comment": " EAP7.x is at 1.2, there is no tag/version beyond 1.0"
+        },
+        {
+          "component_name": "weld-core",
+          "contacts": [
+              "mkouba@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/weld/core.git",
+          "codebase": "2.4",
+          "tag": "2.4.3.Final",
+          "version": "2.4.3.Final-redhat-1",
+          "gav": "org.jboss.weld",
+          "comment": ""
+        },
+        {
+          "component_name": "wildfly-jboss-ejb3-ext-api",
+          "contacts": [
+              "cdewolf@redhat.com",
+              "sdouglas@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/jboss-ejb3-ext-api.git",
+          "codebase": "master",
+          "tag": "2.2.0.Final",
+          "version": "2.2.0.Final-redhat-1",
+          "gav": "org.jboss.ejb3",
+          "comment": ""
+        },
+        {
+          "component_name": "wildfly-security-wildfly-elytron",
+          "contacts": [
+              "darran.lofthouse@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly-security/wildfly-elytron.git",
+          "codebase": "1.1.x",
+          "tag": "1.1.7.Final",
+          "version": "1.1.7.Final-redhat-1",
+          "gav": "org.wildfly.security",
+          "comment": ""
+        },
+        {
+          "component_name": "wildfly-wildfly-common",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/wildfly-common.git",
+          "codebase": "1.2",
+          "tag": "1.2.0.Final",
+          "version": "1.2.0.Final-redhat-1",
+          "gav": "org.wildfly.common",
+          "comment": ""
+        },
+        {
+          "component_name": "wildfly-wildfly-core",
+          "contacts": [
+              "bstansberry@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/wildfly-core.git",
+          "codebase": "3.0.x",
+          "tag": "3.0.10.Final",
+          "version": "3.0.10.Final-redhat-1",
+          "gav": "org.wildfly.core",
+          "comment": ""
+        },
+        {
+          "component_name": "wildfly-wildfly-naming-client",
+          "contacts": [
+              "dlloyd@redhat.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/wildfly/wildfly-naming-client.git",
+          "codebase": "master",
+          "tag": "1.0.7.Final",
+          "version": "1.0.7.Final-redhat-1",
+          "gav": "org.wildfly",
+          "comment": ""
+        },
+        {
+          "component_name": "wsdl4j",
+          "contacts": [],
+          "repository_type": "CVS",
+          "repository_url": "cvs://:pserver:anonymous:@wsdl4j.cvs.sourceforge.net:/cvsroot/wsdl4j",
+          "codebase": "",
+          "tag": "1.6.3.redhat-2",
+          "version": "1.6.3.redhat-2",
+          "gav": "wsdl4j",
+          "comment": ""
+        },
+        {
+          "component_name": "xerces2-j",
+          "contacts": [],
+          "repository_type": "GIT",
+          "repository_url": "git://git.apache.org/xerces2-j.git",
+          "codebase": "",
+          "tag": "Xerces-J_2_11_0",
+          "version": "2.11.0.SP5-redhat-1",
+          "gav": "xerces",
+          "comment": "EAP7.x is at 2.11.0.SP5-redhat-1, no idea which branch is maintenance branch there."
+        },
+        {
+          "component_name": "xml-commons",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.apache.org/repos/asf/xerces/xml-commons/",
+          "codebase": "",
+          "tag": "tags/xml-commons-resolver-1_2",
+          "version": "1.2.0.redhat-11",
+          "gav": "xml-resolver",
+          "comment": "No idea which "
+        },
+        {
+          "component_name": "xnio-netty-xnio-transport",
+          "contacts": [
+              "norman.maurer@googlemail.com"
+          ],
+          "repository_type": "GIT",
+          "repository_url": "https://github.com/xnio/netty-xnio-transport.git",
+          "codebase": "0.1",
+          "tag": "netty-xnio-transport-0.1.2.Final",
+          "version": "0.1.2.Final-redhat-1",
+          "gav": "org.jboss.xnio.netty",
+          "comment": " Master is at 0.1.1CR3. 0.1 branch is at 0.1.2-SNAP, werird."
+        },
+        {
+          "component_name": "xom",
+          "contacts": [
+              "elharo@ibiblio.org"
+          ],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/xom~svn",
+          "codebase": "trunk",
+          "tag": "tags/XOM_12",
+          "version": "1.2.10.redhat-1",
+          "gav": "com.io7m.xom",
+          "comment": "This is just best guess, EAP7.x is at 1.2.10. There a git repo: https://github.com/elharo/xom"
+        },
+        {
+          "component_name": "xsom",
+          "contacts": [],
+          "repository_type": "SVN",
+          "repository_url": "https://svn.java.net/svn/xsom~sources",
+          "codebase": "trunk",
+          "tag": "",
+          "version": "20140925.0.0.redhat-1",
+          "gav": "com.sun.xsom",
+          "comment": "EAP7.x is at 20140925.0.0.redhat-1, there is no 0925 tag. There is GIT repo: https://github.com/kohsuke/xsom/ , but it is in the same state."
+        }
+      ]
+    },
+    {
+      "name": "jboss-eap-7.0.z",
+      "upstream": "jboss-eap-7.1.z",
       "codebases": [
                 {
           "component_name": "A-MQ-artemis-wildfly-integration",
