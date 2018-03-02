@@ -1964,12 +1964,12 @@
               "pskopek@redhat.com"
           ],
           "repository_type": "GIT",
-          "repository_url": "https://github.com/jbossas/redhat-picketbox",
+          "repository_url": "https://github.com/picketbox/picketbox",
           "codebase": "master",
           "tag": "5.0.2.Final",
           "version": "5.0.2.Final",
           "gav": "org.picketbox",
-          "comment": " There is eap-7.x(4.9.x) branch, but current 7.x is at master. No tag, last is 5.0.0A3, 7.x is at A3. Other git related: https://github.com/picketbox/picketbox"
+          "comment": ""
         },
         {
           "component_name": "picketbox-commons",
@@ -4372,7 +4372,7 @@
           "tag": "5.0.2.Final",
           "version": "5.0.2.Final-redhat-1",
           "gav": "org.picketbox",
-          "comment": " There is eap-7.x(4.9.x) branch, but current 7.x is at master. No tag, last is 5.0.0A3, 7.x is at A3"
+          "comment": ""
         },
         {
           "component_name": "picketbox-commons",
@@ -6759,11 +6759,11 @@
           ],
           "repository_type": "GIT",
           "repository_url": "https://github.com/jbossas/redhat-picketbox",
-          "codebase": "master",
+          "codebase": "eap-7.1.x",
           "tag": "5.0.2.Final",
           "version": "5.0.2.Final-redhat-1",
           "gav": "org.picketbox",
-          "comment": " There is eap-7.x(4.9.x) branch, but current 7.x is at master. No tag, last is 5.0.0A3, 7.x is at A3"
+          "comment": ""
         },
         {
           "component_name": "picketbox-commons",
@@ -9061,11 +9061,11 @@
           ],
           "repository_type": "GIT",
           "repository_url": "https://github.com/jbossas/redhat-picketbox",
-          "codebase": "eap-7.x",
-          "tag": "v4.9.7.Final",
-          "version": "4.9.7.Final-redhat-1",
+          "codebase": "eap-7.0.x",
+          "tag": "v4.9.8.Final",
+          "version": "4.9.8.Final-redhat-1",
           "gav": "org.picketbox",
-          "comment": " There is eap-7.x(4.9.x) branch, but current 7.x is at master. No tag, last is 5.0.0A2, 7.x is at A3"
+          "comment": ""
         },
         {
           "component_name": "picketbox-commons",
