@@ -2265,8 +2265,8 @@
           "repository_type": "GIT",
           "repository_url": "https://github.com/wildfly-security/wildfly-elytron",
           "codebase": "master",
-          "tag": "1.2.0.Beta9",
-          "version": "1.2.0.Beta9",
+          "tag": "1.2.3.Final",
+          "version": "1.2.3.Final",
           "gav": "org.wildfly.security",
           "comment": ""
         },
@@ -7057,7 +7057,7 @@
               "darran.lofthouse@redhat.com"
           ],
           "repository_type": "GIT",
-          "repository_url": "https://github.com/wildfly-security/wildfly-elytron",
+          "repository_url": "https://github.com/jbossas/wildfly-elytron",
           "codebase": "1.1.x",
           "tag": "1.1.7.Final",
           "version": "1.1.7.Final-redhat-1",
@@ -9317,10 +9317,10 @@
               "darran.lofthouse@redhat.com"
           ],
           "repository_type": "GIT",
-          "repository_url": "https://github.com/wildfly-security/wildfly-elytron",
+          "repository_url": "https://github.com/jbossas/wildfly-elytron",
           "codebase": "1.0.x",
-          "tag": "1.0.2.Final",
-          "version": "1.0.2.Final-redhat-1",
+          "tag": "1.0.4.Final",
+          "version": "1.0.4.Final-redhat-1",
           "gav": "org.wildfly.security",
           "comment": ""
         },
