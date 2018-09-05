@@ -2394,7 +2394,7 @@
       ]
     },
     {
-      "name": "jboss-eap-7.z.0",
+      "name": "jboss-eap-7.2.z",
       "upstream": "wildfly",
       "codebases": [
         {
@@ -3906,9 +3906,9 @@
           ],
           "repository_type": "GIT",
           "repository_url": "https://github.com/jbossas/jboss-eap7",
-          "codebase": "7.x",
-          "tag": "EAP_7.1.0.CR4-dev-3",
-          "version": "7.1.0.GA-redhat-SNAPSHOT",
+          "codebase": "7.2.x",
+          "tag": "EAP_7.2.0.GA-dev-2",
+          "version": "7.2.0.GA-redhat-SNAPSHOT",
           "gav": "org.jboss.eap",
           "comment": ""
         },
@@ -4692,10 +4692,10 @@
               "bstansberry@redhat.com"
           ],
           "repository_type": "GIT",
-          "repository_url": "https://github.com/jbossas/wildfly-core",
-          "codebase": "master",
-          "tag": "4.0.0.Alpha2",
-          "version": "4.0.0.Alpha2",
+          "repository_url": "https://github.com/jbossas/wildfly-core-eap",
+          "codebase": "6.0.x",
+          "tag": "6.0.11.Final-redhat-dev",
+          "version": "6.0.11.Final-redhat-00001",
           "gav": "org.wildfly.core",
           "comment": ""
         },
@@ -4786,7 +4786,7 @@
     },
     {
       "name": "jboss-eap-7.1.z",
-      "upstream": "jboss-eap-7.z.0",
+      "upstream": "jboss-eap-7.2.z",
       "codebases": [
         {
           "component_name": "A-MQ-artemis-wildfly-integration",
