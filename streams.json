@@ -3900,7 +3900,7 @@
           "comment": ""
         },
         {
-          "component_name": "jbossas-jboss-eap7",
+          "component_name": "wildfly-wildfly",
           "contacts": [
               "bstansberry@redhat.com"
           ],
@@ -6291,7 +6291,7 @@
           "comment": ""
         },
         {
-          "component_name": "jbossas-jboss-eap7",
+          "component_name": "wildfly-wildfly",
           "contacts": [
               "bstansberry@redhat.com"
           ],
