@@ -3906,7 +3906,7 @@
           ],
           "repository_type": "GIT",
           "repository_url": "https://github.com/jbossas/jboss-eap7",
-          "codebase": "CD18",
+          "codebase": "7.3.x",
           "tag": "EAP_7.3.0.CD18-dev-2",
           "version": "7.3.0.CD18-redhat-SNAPSHOT",
           "gav": "org.jboss.eap",
