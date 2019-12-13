@@ -4693,9 +4693,9 @@
           ],
           "repository_type": "GIT",
           "repository_url": "https://github.com/jbossas/wildfly-core-eap",
-          "codebase": "10.0.x",
-          "tag": "10.0.2.Final-redhat-dev",
-          "version": "10.0.2.Final-redhat-SNAPSHOT",
+          "codebase": "10.1.x",
+          "tag": "10.1.0.Final-redhat-dev",
+          "version": "10.1.0.Final-redhat-SNAPSHOT",
           "gav": "org.wildfly.core",
           "comment": ""
         },
