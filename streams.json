@@ -335,7 +335,7 @@
           "version": "0.16.0",
           "gav": "org.apache.qpid",
           "comment": ""
-          
+
         },
         {
           "component_name": "apache-wss4j",
@@ -2233,7 +2233,7 @@
         {
           "component_name": "weld-core",
           "contacts": [
-              "mkouba@redhat.com"
+              "manovotn@redhat.com>"
           ],
           "repository_type": "GIT",
           "repository_url": "https://github.com/weld/core",
@@ -12025,7 +12025,7 @@
           "gav": "",
           "comment": ""
         },
-        { 
+        {
           "component_name": "Netty",
           "contacts": [],
           "repository_type": "",
