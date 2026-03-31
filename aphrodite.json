@@ -1,0 +1,28 @@
+{
+    "maxThreadCount": 10,
+    "streamServiceUpdateRate": 15,
+    "initialDelay": 10,
+    "issueTrackerConfigs": [
+    {
+      "url": "https://redhat.atlassian.net/",
+      "username": "${{JIRA_USER}}",
+      "password": "${{JIRA_PWD}}",
+      "tracker": "JIRA",
+      "limit": "10"
+    }
+  ],
+  "repositoryConfigs": [
+    {
+      "url": "https://github.com/",
+      "username": "${{GITHUB_USER}}",
+      "password": "${{GITHUB_PWD}}",
+      "type": "GITHUB"
+    }
+  ],
+  "streamConfigs": [
+    {
+      "url": "https://raw.githubusercontent.com/jboss-set/jboss-streams/master/streams.json",
+      "type": "JSON"
+    }
+  ]
+}
